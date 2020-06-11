@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<sdf version="1.0">
+<model name="jeff">
+  <pose>0 0 0.5 0 0 0</pose>
+  <static>true</static>
+    <link name="link">
+      <inertial>
+        <mass>80.0</mass>
+        <inertia> <!-- inertias are tricky to compute -->
+          <!-- http://gazebosim.org/tutorials?tut=inertia&cat=build_robot -->
+          <ixx>-0.186819 </ixx>     
+          <ixy>-0.000257 </ixy>        
+          <ixz>-0.000008</ixz>         
+          <iyy>0.005504</iyy>       
+          <iyz>-0.003203</iyz>        
+          <izz>-0.183004</izz>     
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://jeff_electrician/jeff_electrician.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://jeff_electrician/jeff_electrician.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
