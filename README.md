@@ -1,2 +1,3 @@
-# aerialcore_simulation
-Gazebo models and worlds for Aerial-Core project.
+# Aerial-Core simulation
+
+Repository with gazebo models and worlds for Aerial-Core project.
