@@ -56,7 +56,7 @@ namespace gazebo
     if (!_sdf->HasElement("uav_name")) {
       _uav_name_ = "uav1";
     }else{
-      _uav_name_ = sdf->Get<std::string>("uav_name");
+      _uav_name_ = _sdf->Get<std::string>("uav_name");
     }
 
     gz_node_ = transport::NodePtr(new transport::Node());
