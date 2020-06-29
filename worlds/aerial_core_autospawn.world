@@ -4,8 +4,9 @@
   <world name="default">
     <!-- <plugin name="mrs_gazebo_link_attacher_plugin" filename="libMRSGazeboLinkAttacherPlugin.so"/> -->
     <plugin name="mrs_gazebo_static_transform_republisher_plugin" filename="libMRSGazeboStaticTransformRepublisher.so"/>
-    <plugin name="spawner_gazebo_plugin" filename="libSpawnerGazeboPlugin.so"/>
-
+    <plugin name="spawner_gazebo_plugin" filename="libSpawnerGazeboPlugin.so">
+      <uav_name>uav1</uav_name>
+    </plugin>
     <!-- coordinate system {-->
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>

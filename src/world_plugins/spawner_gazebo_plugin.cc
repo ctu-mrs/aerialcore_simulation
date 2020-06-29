@@ -55,8 +55,10 @@ namespace gazebo
     // get model that will be tracked
     if (!_sdf->HasElement("uav_name")) {
       _uav_name_ = "uav1";
+      ROS_INFO("Use default reference frame: %s",_uav_name_.c_str());
     }else{
       _uav_name_ = _sdf->Get<std::string>("uav_name");
+      ROS_INFO("Use set reference frame: %s",_uav_name_.c_str());
     }
 
     gz_node_ = transport::NodePtr(new transport::Node());
