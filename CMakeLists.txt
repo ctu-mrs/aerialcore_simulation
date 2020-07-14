@@ -64,7 +64,7 @@ catkin_package(
    # INCLUDE_DIRS include
    CATKIN_DEPENDS geometry_msgs tf2_msgs gazebo_plugins
    DEPENDS GAZEBO Qt5Widgets Boost Eigen
-   LIBRARIES SpawnerGazeboPlugin 
+   LIBRARIES SpawnerGazeboPlugin DynamicMapPlugin 
 )
 
 ###########
@@ -87,6 +87,12 @@ link_directories(${GAZEBO_LIBRARY_DIRS})
 
 ##  world plugins
 add_library(SpawnerGazeboPlugin SHARED src/world_plugins/spawner_gazebo_plugin.cc)
+target_link_libraries(SpawnerGazeboPlugin
+  ${GAZEBO_LIBRARIES}
+  ${catkin_LIBRARIES}
+  )
+
+add_library(DynamicMapPlugin SHARED src/world_plugins/DynamicMapPlugin.cc)
 target_link_libraries(SpawnerGazeboPlugin
   ${GAZEBO_LIBRARIES}
   ${catkin_LIBRARIES}
