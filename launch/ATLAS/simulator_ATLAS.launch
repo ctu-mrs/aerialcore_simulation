@@ -1,0 +1,85 @@
+<launch>
+
+    <!-- Launch Gazebo simulation -->
+	<rosparam param="/use_sim_time">true</rosparam>
+    <node pkg="px4_bringup" type="launch_gzworld.py" name="gazebo_world" output="screen"
+    args="-physics=ode -world=$(find aerialcore_simulation)/worlds/ATLAS_power_lines.world
+		  -add_model_path=$(find aerialcore_simulation)/models
+		  -description_package=robots_description">
+		<rosparam param="sim_origin">[38.138728, -3.173825, 0]</rosparam>  <!-- [lat,lon,alt] -->
+	</node>
+
+	<!-- Launch robot id=1 -->
+	<!-- <include file="$(find px4_bringup)/launch/spawn_robot.launch" ns="drone_1">
+		<arg name="id" value="1"/>
+        <arg name="robot_model" value="typhoon_h480"/>
+		<arg name="material" value="Indigo"/>
+        <arg name="x" value="-20"/>
+        <arg name="y" value="-40"/>
+        <arg name="z" value="0"/>
+        <arg name="yaw" value="0"/>
+	</include> -->
+
+    <!-- Launch robot id=2  -->
+     <!-- <include file="$(find px4_bringup)/launch/spawn_robot.launch" ns="drone_2">
+        <arg name="id" value="2"/>
+        <arg name="material" value="Indigo"/>
+        <arg name="robot_model" value="typhoon_h480"/>
+        <arg name="x" value="-10"/>
+        <arg name="y" value="-55"/>
+        <arg name="z" value="0"/>
+        <arg name="yaw" value="0"/>
+    </include> -->
+
+    <!-- Launch robot id=3  -->
+     <!-- <include file="$(find px4_bringup)/launch/spawn_robot.launch" ns="drone_3">
+        <arg name="id" value="3"/>
+        <arg name="material" value="Indigo"/>
+        <arg name="robot_model" value="typhoon_h480"/>
+        <arg name="x" value="-25"/>
+        <arg name="y" value="-55"/>
+        <arg name="z" value="0"/>
+        <arg name="yaw" value="0"/>
+    </include> -->
+
+     <!-- Launch UAL server for drone id=1 -->
+    <!-- <node pkg="ual_backend_mavros" type="ual_backend_mavros_server" name="ual" output="screen" ns="drone_1">
+        <param name="uav_id" value="1"/>
+        <param name="pose_frame_id" value="map"/>
+        <rosparam param="home_pose">[-20, -40, 0.0]</rosparam>
+    </node> -->
+
+    <!-- Launch UAL server for drone id=2 -->
+    <!-- <node pkg="ual_backend_mavros" type="ual_backend_mavros_server" name="ual" output="screen" ns="drone_2">
+        <param name="uav_id" value="2"/>
+        <param name="pose_frame_id" value="map"/>
+        <rosparam param="home_pose">[-10, -55, 0.0]</rosparam>
+    </node> -->
+
+    <!-- Launch UAL server for drone id=3 -->
+    <!-- <node pkg="ual_backend_mavros" type="ual_backend_mavros_server" name="ual" output="screen" ns="drone_3">
+        <param name="uav_id" value="3"/>
+        <param name="pose_frame_id" value="map"/>
+        <rosparam param="home_pose">[-25, -55, 0.0]</rosparam>
+    </node> -->
+
+    <!-- <include file="$(find multidrone_simulator)/launch/target_node.launch">
+        <arg name="x" value="0"/>
+        <arg name="y" value="0"/>
+        <arg name="z" value="0"/>
+        <arg name="ori_x" value="0"/>
+        <arg name="ori_y" value="0"/>
+        <arg name="ori_z" value="1.570796327"/>
+        <arg name="scenario" value="oran"/>
+    </include> -->
+
+    <!-- Camera 1>  -->
+    <node name="rqt_image_view_1" pkg="rqt_image_view" type="rqt_image_view" args="/drone_1/cgo3_camera/image_raw"/>
+
+    <!-- Camera 2> -->
+    <!-- <node name="rqt_image_view_2" pkg="rqt_image_view" type="rqt_image_view" args="/drone_2/cgo3_camera/image_raw"/> -->
+
+    <!-- Camera 3> -->
+    <!-- <node name="rqt_image_view_3" pkg="rqt_image_view" type="rqt_image_view" args="/drone_3/cgo3_camera/image_raw"/> -->
+
+</launch>
