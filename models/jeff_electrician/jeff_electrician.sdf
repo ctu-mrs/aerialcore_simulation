@@ -31,7 +31,7 @@
         </geometry>
       </visual>
     </link>
-	<plugin name="dynamic_target_plugin" filename="libDynamicModelPlugin.so">
+  	<plugin name="dynamic_model_plugin" filename="libDynamicModelPlugin.so">
        <update_rate>30</update_rate>
        <initial_on>true</initial_on>
        <trajectory_file>circle_trajectory.txt</trajectory_file>
