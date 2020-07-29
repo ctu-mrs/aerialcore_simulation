@@ -33,7 +33,8 @@ namespace gazebo
       ignition::math::Vector3d uav_position_;
       // Gazebo subscribers
       std::string file_path = "/home/mrs/workspace/src/aerialcore_simulation/gps/v223-v224_gps.txt";      
-      std::string model_name = "somepowerline"; 
+      std::string model_name = "somepowerline";
+      std::string spawn_name;
       transport::NodePtr       gz_node_;
       transport::SubscriberPtr gz_uav_sub_;
       transport::NodePtr gz_node_pub_;
@@ -49,7 +50,7 @@ namespace gazebo
       void DespawnModel(ignition::math::Vector3d position);
 
       void CheckDistances(ignition::math::Vector3d uavPosition);
-      std::string getFileName(const std::string& s);
+      std::string GetFilename(const std::string& s);
 
   };
 
@@ -83,6 +84,8 @@ namespace gazebo
           << std::endl;
     return;
   }
+
+  this->spawn_name = this->GetFilename(file_path);
 
   this->center =
       _sdf->Get<ignition::math::Vector2d>("center");
@@ -119,7 +122,7 @@ namespace gazebo
     while(std::getline(csv_file, line))
     {
       std::stringstream line_stream(line);
-      int index;
+      std::string index;
       line_stream >> index;
       line_stream >> lat;
       line_stream >> lon;
@@ -234,7 +237,7 @@ namespace gazebo
       std::stringstream newStream;
 
       newStream << "<sdf version ='1.5'>\n" <<
-         "   <model name='"<< this->model_name <<"_"<<position[0]<<"_"<<position[1]<<"'>\n" <<
+         "   <model name='"<< this->spawn_name <<"_"<<position[0]<<"_"<<position[1]<<"'>\n" <<
          "     <static>true</static>\n" <<
          "     <link name='link'>\n" <<
          "       <pose>"<<position[0]<<" "<<position[1]<<" 0 0 0 "<<position[2]<<"</pose>\n" <<
@@ -270,7 +273,7 @@ msgs::Request *msg = gazebo::msgs::CreateRequest("entity_delete", newStream.str(
       delete msg;
 
       }
-  std::string getFileName(const std::string& s) {
+  std::string PowerlinePlugin::GetFilename(const std::string& s) {
 
      char sep = '/';
      size_t i = s.rfind(sep, s.length());
