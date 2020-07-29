@@ -12,14 +12,14 @@ The procedural power line spawning is linked with Gazebo topic `/gazebo/default/
 The dynamic model plugin enables simulation of dynamic models in Gazebo worlds. The plugin can be added to any gazebo model by addition of following lines to model definition file (`*.sdf`). 
 
 ```xml
-  	<plugin name="dynamic_model_plugin" filename="libDynamicModelPlugin.so">
-       <update_rate>30</update_rate>
-       <trajectory_file>circle_trajectory.txt</trajectory_file>
-       <use_segmentation>true</use_segmentation>
-       <use_directional_yaw>true</use_directional_yaw>
-       <initial_on>true</initial_on>
-       <loop_enabled>true</loop_enabled>
-     </plugin>
+<plugin name="dynamic_model_plugin" filename="libDynamicModelPlugin.so">
+  <update_rate>30</update_rate>
+  <trajectory_file>circle_trajectory.txt</trajectory_file>
+  <use_segmentation>true</use_segmentation>
+  <use_directional_yaw>true</use_directional_yaw>
+  <initial_on>true</initial_on>
+  <loop_enabled>true</loop_enabled>
+</plugin>
 ```
 
 The parameters have the following meaning:
