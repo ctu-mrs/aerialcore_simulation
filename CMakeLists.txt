@@ -94,7 +94,7 @@ target_link_libraries(PowerlineGazeboPlugin
   ${catkin_LIBRARIES}
   )
 
-add_library(DynamicModelPlugin SHARED src/world_plugins/dynamic_model_plugin.cpp)
+add_library(DynamicModelPlugin SHARED src/model_plugins/dynamic_model_plugin.cpp)
 target_link_libraries(DynamicModelPlugin
   ${GAZEBO_LIBRARIES}
   ${catkin_LIBRARIES}
