@@ -187,26 +187,28 @@ bool DynamicModelPlugin::activationCallback(std_srvs::SetBoolRequest &req, std_s
   res.success = true;
   if (req.data) {
     if (!map_loaded) {
-      ROS_WARN("[%s]: Map not loaded yet. Tracking cannot be activated.", ros::this_node::getName().c_str());
+      res.message = "Map not loaded yet. Tracking cannot be activated.";
       res.success = false;
       return false;
     }
     if (tracking_active) {
-      ROS_WARN("[%s]: Tracking is already active.", ros::this_node::getName().c_str());
+      res.message = "Tracking is already active.";
       res.success = false;
     } else {
       tracking_active = true;
-      ROS_INFO("[%s]: Tracking activated.", ros::this_node::getName().c_str());
+      res.message = "Tracking activated.";
     }
   } else {
     if (tracking_active) {
       tracking_active = false;
-      ROS_INFO("[%s]: Tracking deactivated", ros::this_node::getName().c_str());
+      res.message = "Tracking deactivated.";
     } else {
-      ROS_WARN("[%s]: Tracking already deactivated", ros::this_node::getName().c_str());
+      res.message = "Tracking already deactivated.";
       res.success = false;
     }
   }
+  ROS_WARN_COND(!res.success, "[%s]: %s", ros::this_node::getName().c_str(), res.message.c_str());
+  ROS_INFO_COND(res.success, "[%s]: %s", ros::this_node::getName().c_str(), res.message.c_str());
   return res.success;
 }
 //}
@@ -215,13 +217,15 @@ bool DynamicModelPlugin::activationCallback(std_srvs::SetBoolRequest &req, std_s
 bool DynamicModelPlugin::resetCallback(std_srvs::TriggerRequest &req, std_srvs::TriggerResponse &res) {
   ROS_INFO("[%s][Dynamic model]: Reset callback!", parent_name.c_str());
   if (tracking_active) {
-    ROS_WARN("[%s]: Tracking is active, cannot be reset.", ros::this_node::getName().c_str());
+    res.message = "Tracking is active, cannot be reset.";
+    ROS_WARN("[%s]: %s", ros::this_node::getName().c_str(), res.message.c_str());
     res.success = false;
   } else {
     trajectory_pointer = 0;
     current_pose       = segmented_trajectory[trajectory_pointer];
     moveModel();
-    ROS_INFO("[%s]: Tracking reset.", ros::this_node::getName().c_str());
+    res.message = "Tracking reset.";
+    ROS_INFO("[%s]: %s", ros::this_node::getName().c_str(), res.message.c_str());
     res.success = true;
   }
   return res.success;
