@@ -63,18 +63,18 @@
         <rosparam param="home_pose">[-25, -55, 0.0]</rosparam>
     </node> -->
 
-    <!-- <include file="$(find multidrone_simulator)/launch/target_node.launch">
+    <!-- <include file="$(find aerialcore_simulation)/launch/target/target_node.launch">
         <arg name="x" value="0"/>
         <arg name="y" value="0"/>
         <arg name="z" value="0"/>
         <arg name="ori_x" value="0"/>
         <arg name="ori_y" value="0"/>
         <arg name="ori_z" value="1.570796327"/>
-        <arg name="scenario" value="oran"/>
+        <arg name="scenario" value="atlas"/>
     </include> -->
 
     <!-- Camera 1>  -->
-    <node name="rqt_image_view_1" pkg="rqt_image_view" type="rqt_image_view" args="/drone_1/cgo3_camera/image_raw"/>
+    <!-- <node name="rqt_image_view_1" pkg="rqt_image_view" type="rqt_image_view" args="/drone_1/cgo3_camera/image_raw"/> -->
 
     <!-- Camera 2> -->
     <!-- <node name="rqt_image_view_2" pkg="rqt_image_view" type="rqt_image_view" args="/drone_2/cgo3_camera/image_raw"/> -->
