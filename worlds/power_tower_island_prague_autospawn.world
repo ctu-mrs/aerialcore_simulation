@@ -71,12 +71,6 @@
               <radius>0.25</radius>
             </sphere>
           </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/Gazebo.material</uri>
-              <name>Gazebo/Black</name>
-            </script>
-          </material>
         </visual>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
