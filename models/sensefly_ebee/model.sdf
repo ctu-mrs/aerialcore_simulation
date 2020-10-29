@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="sensefly_ebee">
+    <static>true</static>
+    <link name="floor">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://sensefly_ebee/meshes/sensefly_ebee.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://sensefly_ebee/meshes/sensefly_ebee.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
