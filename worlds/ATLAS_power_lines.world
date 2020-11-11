@@ -85,7 +85,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4222.451 -2178.619.61919 7.5 0 0 0</pose>
+      <pose frame=''>-4222.451 -2178.619 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_2'>
@@ -100,7 +100,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4203.297 -627.784.78433000017 7.5 0 0 0</pose>
+      <pose frame=''>-4203.297 -627.784 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_3'>
@@ -115,7 +115,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4132.362 -2178.620.62067000009 7.5 0 0 0</pose>
+      <pose frame=''>-4132.362 -2178.620 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_4'>
@@ -130,7 +130,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4092.744 -629.363.363189999946 7.5 0 0 0</pose>
+      <pose frame=''>-4092.744 -629.363 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_5'>
@@ -145,7 +145,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4030.025 -631.153.153669999912 7.5 0 0 0</pose>
+      <pose frame=''>-4030.025 -631.153 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_6'>
@@ -160,7 +160,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4029.286 -641.126.126559999771 7.5 0 0 0</pose>
+      <pose frame=''>-4029.286 -641.126 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_7'>
@@ -175,7 +175,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4028.026 -658.153.153370000422 7.5 0 0 0</pose>
+      <pose frame=''>-4028.026 -658.153 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_8'>
@@ -190,7 +190,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4025.595 -744.627.627360000275 7.5 0 0 0</pose>
+      <pose frame=''>-4025.595 -744.627 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_9'>
@@ -205,7 +205,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3963.448 -2283.725.72525000013 7.5 0 0 0</pose>
+      <pose frame=''>-3963.448 -2283.725 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_10'>
@@ -220,7 +220,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3950.727 -632.099.099290000275 7.5 0 0 0</pose>
+      <pose frame=''>-3950.727 -632.099 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_11'>
@@ -235,7 +235,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3838.800 -636.781.781130000018 7.5 0 0 0</pose>
+      <pose frame=''>-3838.800 -636.781 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_12'>
@@ -250,7 +250,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3731.743 -641.908.90894000046 7.5 0 0 0</pose>
+      <pose frame=''>-3731.743 -641.908 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_13'>
@@ -265,7 +265,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3631.206 -642.700.700740000233 7.5 0 0 0</pose>
+      <pose frame=''>-3631.206 -642.700 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_14'>
@@ -280,7 +280,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3586.001 -2029.255.2550499998 7.5 0 0 0</pose>
+      <pose frame=''>-3586.001 -2029.255 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_15'>
@@ -295,7 +295,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3511.510 -644.344.344680000097 7.5 0 0 0</pose>
+      <pose frame=''>-3511.510 -644.344 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_16'>
@@ -310,7 +310,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3479.855 -1974.146.14618999977 7.5 0 0 0</pose>
+      <pose frame=''>-3479.855 -1974.146 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_17'>
@@ -325,7 +325,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3462.443 -1903.775.77507000044 7.5 0 0 0</pose>
+      <pose frame=''>-3462.443 -1903.775 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_18'>
@@ -340,7 +340,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3428.446 -1903.266.26658000052 7.5 0 0 0</pose>
+      <pose frame=''>-3428.446 -1903.266 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_19'>
@@ -355,7 +355,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3418.447 -1903.116.11672999989 7.5 0 0 0</pose>
+      <pose frame=''>-3418.447 -1903.116 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_20'>
@@ -370,7 +370,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3407.693 -645.406.406510000117 7.5 0 0 0</pose>
+      <pose frame=''>-3407.693 -645.406 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_21'>
@@ -385,7 +385,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3400.896 -1913.600.60089999996 7.5 0 0 0</pose>
+      <pose frame=''>-3400.896 -1913.600 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_22'>
@@ -400,7 +400,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3374.302 -1793.215.21528999973 7.5 0 0 0</pose>
+      <pose frame=''>-3374.302 -1793.215 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_23'>
@@ -415,7 +415,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3357.904 -1627.720.72087999992 7.5 0 0 0</pose>
+      <pose frame=''>-3357.904 -1627.720 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_24'>
@@ -430,7 +430,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3332.604 32.362.3624299997464 7.5 0 0 0</pose>
+      <pose frame=''>-3332.604 32.362 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_25'>
@@ -445,7 +445,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3320.149 -1659.561.56113000028 7.5 0 0 0</pose>
+      <pose frame=''>-3320.149 -1659.561 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_26'>
@@ -460,7 +460,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3310.604 -50.636.6360100004822 7.5 0 0 0</pose>
+      <pose frame=''>-3310.604 -50.636 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_27'>
@@ -475,7 +475,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3308.929 -1646.654.6543800002 7.5 0 0 0</pose>
+      <pose frame=''>-3308.929 -1646.654 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_28'>
@@ -490,7 +490,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3283.124 -653.128.128449999727 7.5 0 0 0</pose>
+      <pose frame=''>-3283.124 -653.128 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_29'>
@@ -505,7 +505,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3278.056 -2004.767.7670400003 7.5 0 0 0</pose>
+      <pose frame=''>-3278.056 -2004.767 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_30'>
@@ -520,7 +520,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3272.605 -208.633.63396999985 7.5 0 0 0</pose>
+      <pose frame=''>-3272.605 -208.633 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_31'>
@@ -535,7 +535,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3227.606 -423.631.631610000506 7.5 0 0 0</pose>
+      <pose frame=''>-3227.606 -423.631 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_32'>
@@ -550,7 +550,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3186.606 -620.629.629460000433 7.5 0 0 0</pose>
+      <pose frame=''>-3186.606 -620.629 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_33'>
@@ -565,7 +565,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3179.606 -645.629.629340000451 7.5 0 0 0</pose>
+      <pose frame=''>-3179.606 -645.629 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_34'>
@@ -580,7 +580,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3156.524 -2094.360.36027999967 7.5 0 0 0</pose>
+      <pose frame=''>-3156.524 -2094.360 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_35'>
@@ -595,7 +595,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3150.371 -1629.036.03665000014 7.5 0 0 0</pose>
+      <pose frame=''>-3150.371 -1629.036 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_36'>
@@ -610,7 +610,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3059.884 -645.267.267300000414 7.5 0 0 0</pose>
+      <pose frame=''>-3059.884 -645.267 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_37'>
@@ -625,7 +625,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3002.203 -1618.081.08169999998 7.5 0 0 0</pose>
+      <pose frame=''>-3002.203 -1618.081 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_38'>
@@ -640,7 +640,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2973.539 -2216.758.75846000016 7.5 0 0 0</pose>
+      <pose frame=''>-2973.539 -2216.758 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_39'>
@@ -655,7 +655,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2941.412 -655.502.502190000378 7.5 0 0 0</pose>
+      <pose frame=''>-2941.412 -655.502 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_40'>
@@ -670,7 +670,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2893.974 -1597.396.39625999983 7.5 0 0 0</pose>
+      <pose frame=''>-2893.974 -1597.396 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_41'>
@@ -685,7 +685,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2858.808 -2312.764.76484999992 7.5 0 0 0</pose>
+      <pose frame=''>-2858.808 -2312.764 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_42'>
@@ -700,7 +700,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2833.139 -652.684.684080000036 7.5 0 0 0</pose>
+      <pose frame=''>-2833.139 -652.684 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_43'>
@@ -715,7 +715,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2772.622 -1580.566.56694999989 7.5 0 0 0</pose>
+      <pose frame=''>-2772.622 -1580.566 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_44'>
@@ -730,7 +730,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2727.436 -662.570.57088000048 7.5 0 0 0</pose>
+      <pose frame=''>-2727.436 -662.570 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_45'>
@@ -745,7 +745,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2657.582 -669.005.005420000292 7.5 0 0 0</pose>
+      <pose frame=''>-2657.582 -669.005 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_46'>
@@ -760,7 +760,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2637.853 -1568.319.31976999994 7.5 0 0 0</pose>
+      <pose frame=''>-2637.853 -1568.319 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_47'>
@@ -775,7 +775,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2515.411 -683.495.495520000346 7.5 0 0 0</pose>
+      <pose frame=''>-2515.411 -683.495 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_48'>
@@ -790,7 +790,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2493.476 -1561.155.15567000024 7.5 0 0 0</pose>
+      <pose frame=''>-2493.476 -1561.155 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_49'>
@@ -805,7 +805,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2450.644 -683.145.14506000001 7.5 0 0 0</pose>
+      <pose frame=''>-2450.644 -683.145 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_50'>
@@ -820,7 +820,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2449.140 -685.374.374060000293 7.5 0 0 0</pose>
+      <pose frame=''>-2449.140 -685.374 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_51'>
@@ -835,7 +835,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2448.073 -660.457.457150000148 7.5 0 0 0</pose>
+      <pose frame=''>-2448.073 -660.457 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_52'>
@@ -850,7 +850,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2399.874 -1548.666.6669300003 7.5 0 0 0</pose>
+      <pose frame=''>-2399.874 -1548.666 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_53'>
@@ -865,7 +865,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2399.065 -1549.254.25494000036 7.5 0 0 0</pose>
+      <pose frame=''>-2399.065 -1549.254 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_54'>
@@ -880,7 +880,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2395.128 -604.979.97974000033 7.5 0 0 0</pose>
+      <pose frame=''>-2395.128 -604.979 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_55'>
@@ -895,7 +895,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2385.874 -1511.312.31221999973 7.5 0 0 0</pose>
+      <pose frame=''>-2385.874 -1511.312 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_56'>
@@ -910,7 +910,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2372.988 -1445.972.97255999967 7.5 0 0 0</pose>
+      <pose frame=''>-2372.988 -1445.972 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_57'>
@@ -925,7 +925,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2362.378 -697.961.961740000173 7.5 0 0 0</pose>
+      <pose frame=''>-2362.378 -697.961 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_58'>
@@ -940,7 +940,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2344.289 -1360.288.28813999984 7.5 0 0 0</pose>
+      <pose frame=''>-2344.289 -1360.288 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_59'>
@@ -955,7 +955,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2326.189 -1259.260.26061000023 7.5 0 0 0</pose>
+      <pose frame=''>-2326.189 -1259.260 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_60'>
@@ -970,7 +970,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2289.802 -1148.681.68128999975 7.5 0 0 0</pose>
+      <pose frame=''>-2289.802 -1148.681 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_61'>
@@ -985,7 +985,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2274.393 -1083.768.76860000007 7.5 0 0 0</pose>
+      <pose frame=''>-2274.393 -1083.768 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_62'>
@@ -1000,7 +1000,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2256.166 -703.330.330610000528 7.5 0 0 0</pose>
+      <pose frame=''>-2256.166 -703.330 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_63'>
@@ -1015,7 +1015,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2236.082 -947.377.377279999666 7.5 0 0 0</pose>
+      <pose frame=''>-2236.082 -947.377 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_64'>
@@ -1030,7 +1030,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2214.664 -873.946.946620000526 7.5 0 0 0</pose>
+      <pose frame=''>-2214.664 -873.946 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_65'>
@@ -1045,7 +1045,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2184.567 -713.625.62519000005 7.5 0 0 0</pose>
+      <pose frame=''>-2184.567 -713.625 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_66'>
@@ -1060,7 +1060,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2184.477 -726.603.603160000406 7.5 0 0 0</pose>
+      <pose frame=''>-2184.477 -726.603 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_67'>
@@ -1075,7 +1075,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2168.496 -920.500.500970000401 7.5 0 0 0</pose>
+      <pose frame=''>-2168.496 -920.500 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_68'>
@@ -1090,7 +1090,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2148.897 -1040.636.63697000034 7.5 0 0 0</pose>
+      <pose frame=''>-2148.897 -1040.636 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_69'>
@@ -1105,7 +1105,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2119.091 -1240.634.63499000017 7.5 0 0 0</pose>
+      <pose frame=''>-2119.091 -1240.634 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_70'>
@@ -1120,7 +1120,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2095.076 -733.158.158909999766 7.5 0 0 0</pose>
+      <pose frame=''>-2095.076 -733.158 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_71'>
@@ -1135,7 +1135,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2094.589 -730.198.198920000345 7.5 0 0 0</pose>
+      <pose frame=''>-2094.589 -730.198 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_72'>
@@ -1150,7 +1150,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2093.103 -721.169.1699400004 7.5 0 0 0</pose>
+      <pose frame=''>-2093.103 -721.169 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_73'>
@@ -1165,7 +1165,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2038.547 -1347.157.15779000055 7.5 0 0 0</pose>
+      <pose frame=''>-2038.547 -1347.157 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_74'>
@@ -1180,7 +1180,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2026.709 -674.771.771540000103 7.5 0 0 0</pose>
+      <pose frame=''>-2026.709 -674.771 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_75'>
@@ -1195,7 +1195,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1992.377 -653.073.073839999735 7.5 0 0 0</pose>
+      <pose frame=''>-1992.377 -653.073 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_76'>
@@ -1210,7 +1210,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1961.076 -1458.349.34965000022 7.5 0 0 0</pose>
+      <pose frame=''>-1961.076 -1458.349 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_77'>
@@ -1225,7 +1225,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1899.613 -629.023.023590000346 7.5 0 0 0</pose>
+      <pose frame=''>-1899.613 -629.023 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_78'>
@@ -1240,7 +1240,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1874.124 -1606.555.55572000053 7.5 0 0 0</pose>
+      <pose frame=''>-1874.124 -1606.555 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_79'>
@@ -1255,7 +1255,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1867.833 -1598.355.35581000056 7.5 0 0 0</pose>
+      <pose frame=''>-1867.833 -1598.355 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_80'>
@@ -1270,7 +1270,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1764.195 -587.707.707639999688 7.5 0 0 0</pose>
+      <pose frame=''>-1764.195 -587.707 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_81'>
@@ -1285,7 +1285,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1755.219 -1697.212.2123499997 7.5 0 0 0</pose>
+      <pose frame=''>-1755.219 -1697.212 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_82'>
@@ -1300,7 +1300,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1665.657 -555.446.446360000409 7.5 0 0 0</pose>
+      <pose frame=''>-1665.657 -555.446 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_83'>
@@ -1315,7 +1315,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1663.634 -562.797.797380000353 7.5 0 0 0</pose>
+      <pose frame=''>-1663.634 -562.797 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_84'>
@@ -1330,7 +1330,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1606.724 -1785.800.80052000005 7.5 0 0 0</pose>
+      <pose frame=''>-1606.724 -1785.800 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_85'>
@@ -1345,7 +1345,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1523.514 -516.546.546350000426 7.5 0 0 0</pose>
+      <pose frame=''>-1523.514 -516.546 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_86'>
@@ -1360,7 +1360,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1493.935 -1882.216.21631000005 7.5 0 0 0</pose>
+      <pose frame=''>-1493.935 -1882.216 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_87'>
@@ -1375,7 +1375,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1456.758 -1858.442.44280999992 7.5 0 0 0</pose>
+      <pose frame=''>-1456.758 -1858.442 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_88'>
@@ -1390,7 +1390,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1430.835 -492.496.496969999745 7.5 0 0 0</pose>
+      <pose frame=''>-1430.835 -492.496 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_89'>
@@ -1405,7 +1405,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1325.945 -469.053.053650000133 7.5 0 0 0</pose>
+      <pose frame=''>-1325.945 -469.053 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_90'>
@@ -1420,7 +1420,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1314.445 -1935.237.23711999971 7.5 0 0 0</pose>
+      <pose frame=''>-1314.445 -1935.237 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_91'>
@@ -1435,7 +1435,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1304.038 -1918.157.1572200004 7.5 0 0 0</pose>
+      <pose frame=''>-1304.038 -1918.157 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_92'>
@@ -1450,7 +1450,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1219.436 -445.978.978319999762 7.5 0 0 0</pose>
+      <pose frame=''>-1219.436 -445.978 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_93'>
@@ -1465,7 +1465,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1189.809 -152.514.514449999668 7.5 0 0 0</pose>
+      <pose frame=''>-1189.809 -152.514 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_94'>
@@ -1480,7 +1480,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1164.946 -1955.250.25044000056 7.5 0 0 0</pose>
+      <pose frame=''>-1164.946 -1955.250 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_95'>
@@ -1495,7 +1495,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1111.243 -395.872.872860000469 7.5 0 0 0</pose>
+      <pose frame=''>-1111.243 -395.872 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_96'>
@@ -1510,7 +1510,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1107.013 -421.726.726990000345 7.5 0 0 0</pose>
+      <pose frame=''>-1107.013 -421.726 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_97'>
@@ -1525,7 +1525,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1019.380 -1973.884.88473000005 7.5 0 0 0</pose>
+      <pose frame=''>-1019.380 -1973.884 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_98'>
@@ -1540,7 +1540,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-887.529 -366.336.336249999702 7.5 0 0 0</pose>
+      <pose frame=''>-887.529 -366.336 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_99'>
@@ -1555,7 +1555,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-886.759 -375.461.461290000007 7.5 0 0 0</pose>
+      <pose frame=''>-886.759 -375.461 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_100'>
@@ -1570,7 +1570,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-871.444 -1991.265.26549999975 7.5 0 0 0</pose>
+      <pose frame=''>-871.444 -1991.265 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_101'>
@@ -1585,7 +1585,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-766.971 -339.191.191960000433 7.5 0 0 0</pose>
+      <pose frame=''>-766.971 -339.191 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_102'>
@@ -1600,7 +1600,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-738.037 -358.049.049780000001 7.5 0 0 0</pose>
+      <pose frame=''>-738.037 -358.049 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_103'>
@@ -1615,7 +1615,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-733.149 -2007.442.44290000014 7.5 0 0 0</pose>
+      <pose frame=''>-733.149 -2007.442 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_104'>
@@ -1630,7 +1630,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-694.034 -389.265.265540000051 7.5 0 0 0</pose>
+      <pose frame=''>-694.034 -389.265 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_105'>
@@ -1645,7 +1645,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-632.872 -319.215.21556000039 7.5 0 0 0</pose>
+      <pose frame=''>-632.872 -319.215 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_106'>
@@ -1660,7 +1660,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-626.517 -283.636.63628999982 7.5 0 0 0</pose>
+      <pose frame=''>-626.517 -283.636 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_107'>
@@ -1675,7 +1675,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-604.243 -227.165.165740000084 7.5 0 0 0</pose>
+      <pose frame=''>-604.243 -227.165 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_108'>
@@ -1690,7 +1690,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-544.652 -296.433.433570000343 7.5 0 0 0</pose>
+      <pose frame=''>-544.652 -296.433 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_109'>
@@ -1705,7 +1705,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-503.435 -1927.461.4612800004 7.5 0 0 0</pose>
+      <pose frame=''>-503.435 -1927.461 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_110'>
@@ -1720,7 +1720,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-503.375 -157.511.511309999973 7.5 0 0 0</pose>
+      <pose frame=''>-503.375 -157.511 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_111'>
@@ -1735,7 +1735,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-492.757 -240.601.601719999686 7.5 0 0 0</pose>
+      <pose frame=''>-492.757 -240.601 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_112'>
@@ -1750,7 +1750,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-490.135 -216.032.032540000044 7.5 0 0 0</pose>
+      <pose frame=''>-490.135 -216.032 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_113'>
@@ -1765,7 +1765,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-483.330 -1956.110.11034999974 7.5 0 0 0</pose>
+      <pose frame=''>-483.330 -1956.110 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_114'>
@@ -1780,7 +1780,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-458.088 -2000.425.42551000044 7.5 0 0 0</pose>
+      <pose frame=''>-458.088 -2000.425 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_115'>
@@ -1795,7 +1795,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-415.229 -300.858.858260000125 7.5 0 0 0</pose>
+      <pose frame=''>-415.229 -300.858 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_116'>
@@ -1810,7 +1810,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-411.926 -300.971.971309999935 7.5 0 0 0</pose>
+      <pose frame=''>-411.926 -300.971 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_117'>
@@ -1825,7 +1825,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-392.998 -203.197.197490000166 7.5 0 0 0</pose>
+      <pose frame=''>-392.998 -203.197 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_118'>
@@ -1840,7 +1840,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-301.307 -167.065.065340000205 7.5 0 0 0</pose>
+      <pose frame=''>-301.307 -167.065 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_119'>
@@ -1855,7 +1855,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-244.415 -289.984.984609999694 7.5 0 0 0</pose>
+      <pose frame=''>-244.415 -289.984 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_120'>
@@ -1870,7 +1870,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-208.054 -131.734.734149999917 7.5 0 0 0</pose>
+      <pose frame=''>-208.054 -131.734 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_121'>
@@ -1885,7 +1885,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-118.766 -97.603.6030000001192 7.5 0 0 0</pose>
+      <pose frame=''>-118.766 -97.603 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_122'>
@@ -1900,7 +1900,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-33.345 -276.977.977470000274 7.5 0 0 0</pose>
+      <pose frame=''>-33.345 -276.977 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_123'>
@@ -1915,7 +1915,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-28.632 -63.169.1698200004175 7.5 0 0 0</pose>
+      <pose frame=''>-28.632 -63.169 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_124'>
