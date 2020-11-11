@@ -100,7 +100,7 @@ target_link_libraries(DynamicModelPlugin
   ${catkin_LIBRARIES}
   )
 
-# add_library(DynamicMapPlugin SHARED src/world_plugins/DynamicMapPlugin.cc)
+add_library(DynamicMapPlugin SHARED src/world_plugins/DynamicMapPlugin.cc)
 target_link_libraries(SpawnerGazeboPlugin
   ${GAZEBO_LIBRARIES}
   ${catkin_LIBRARIES}
