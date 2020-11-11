@@ -48,11 +48,11 @@
     </include>
 
     <!-- Include sensefly_ebee -->
-    <include>
+    <!-- <include>
       <uri>model://sensefly_ebee</uri>
       <pose>1.5 1 0 1.570796327 0 o</pose>
       <name>sensefly_ebee_uav</name>
-    </include>
+    </include> -->
 
     <!-- World state: rotate (ENU) and center the origin of the simulator -->
     <state world_name='ATLAS_power_lines_world'>
@@ -73,7 +73,7 @@
 
 
 
-    <model name='Pilar_low_res_1'>
+    <model name='Pylon_low_res_1'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -85,10 +85,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1130.37262400001 411.104290000163 7.5 0 0 0</pose>
+      <pose frame=''>-4222.451 -2178.619.61919 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_2'>
+    <model name='Pylon_low_res_2'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -100,10 +100,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1123.263805 428.908400000073 7.5 0 0 0</pose>
+      <pose frame=''>-4203.297 -627.784.78433000017 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_3'>
+    <model name='Pylon_low_res_3'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -115,10 +115,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1130.37262400001 411.104290000163 7.5 0 0 0</pose>
+      <pose frame=''>-4132.362 -2178.620.62067000009 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_4'>
+    <model name='Pylon_low_res_4'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -130,10 +130,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>699.291185999988 219.419420000166 7.5 0 0 0</pose>
+      <pose frame=''>-4092.744 -629.363.363189999946 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_5'>
+    <model name='Pylon_low_res_5'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -145,10 +145,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>641.64691000001 169.92930999957 7.5 0 0 0</pose>
+      <pose frame=''>-4030.025 -631.153.153669999912 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_6'>
+    <model name='Pylon_low_res_6'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -160,10 +160,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>543.199145000021 136.867929999717 7.5 0 0 0</pose>
+      <pose frame=''>-4029.286 -641.126.126559999771 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_7'>
+    <model name='Pylon_low_res_7'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -175,10 +175,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>446.780434000015 102.711570000276 7.5 0 0 0</pose>
+      <pose frame=''>-4028.026 -658.153.153370000422 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_8'>
+    <model name='Pylon_low_res_8'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -190,10 +190,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>350.383762000012 70.1642499994487 7.5 0 0 0</pose>
+      <pose frame=''>-4025.595 -744.627.627360000275 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_9'>
+    <model name='Pylon_low_res_9'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -205,10 +205,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>252.635988000024 36.8139300001785 7.5 0 0 0</pose>
+      <pose frame=''>-3963.448 -2283.725.72525000013 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_10'>
+    <model name='Pylon_low_res_10'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -220,10 +220,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>162.85766400001 5.8077199999243 7.5 0 0 0</pose>
+      <pose frame=''>-3950.727 -632.099.099290000275 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_11'>
+    <model name='Pylon_low_res_11'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -235,10 +235,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>63.3079429999925 -22.3735499996692 7.5 0 0 0</pose>
+      <pose frame=''>-3838.800 -636.781.781130000018 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_12'>
+    <model name='Pylon_low_res_12'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -250,10 +250,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>756.432464000012 103.136930000037 7.5 0 0 0</pose>
+      <pose frame=''>-3731.743 -641.908.90894000046 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_13'>
+    <model name='Pylon_low_res_13'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -265,10 +265,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-503.375 -157.511309999973 7.5 0 0 0</pose>
+      <pose frame=''>-3631.206 -642.700.700740000233 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_14'>
+    <model name='Pylon_low_res_14'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -280,10 +280,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-492.757143000024 -240.601719999686 7.5 0 0 0</pose>
+      <pose frame=''>-3586.001 -2029.255.2550499998 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_15'>
+    <model name='Pylon_low_res_15'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -295,10 +295,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-490.135226999992 -216.032540000044 7.5 0 0 0</pose>
+      <pose frame=''>-3511.510 -644.344.344680000097 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_16'>
+    <model name='Pylon_low_res_16'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -310,10 +310,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-738.037996999978 -358.049780000001 7.5 0 0 0</pose>
+      <pose frame=''>-3479.855 -1974.146.14618999977 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_17'>
+    <model name='Pylon_low_res_17'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -325,10 +325,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-766.971811000025 -339.191960000433 7.5 0 0 0</pose>
+      <pose frame=''>-3462.443 -1903.775.77507000044 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_18'>
+    <model name='Pylon_low_res_18'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -340,10 +340,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-632.872559999989 -319.21556000039 7.5 0 0 0</pose>
+      <pose frame=''>-3428.446 -1903.266.26658000052 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_19'>
+    <model name='Pylon_low_res_19'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -355,10 +355,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-626.51709899999 -283.63628999982 7.5 0 0 0</pose>
+      <pose frame=''>-3418.447 -1903.116.11672999989 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_20'>
+    <model name='Pylon_low_res_20'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -370,10 +370,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1245.51024199999 -1131.27343000006 7.5 0 0 0</pose>
+      <pose frame=''>-3407.693 -645.406.406510000117 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_21'>
+    <model name='Pylon_low_res_21'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -385,10 +385,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1179.12345700001 -1248.60520000011 7.5 0 0 0</pose>
+      <pose frame=''>-3400.896 -1913.600.60089999996 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_22'>
+    <model name='Pylon_low_res_22'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -400,10 +400,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1000.84619399998 -612.240849999711 7.5 0 0 0</pose>
+      <pose frame=''>-3374.302 -1793.215.21528999973 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_23'>
+    <model name='Pylon_low_res_23'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -415,10 +415,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>492.003488000017 -625.948470000178 7.5 0 0 0</pose>
+      <pose frame=''>-3357.904 -1627.720.72087999992 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_24'>
+    <model name='Pylon_low_res_24'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -430,10 +430,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>465.386142999982 -626.631710000336 7.5 0 0 0</pose>
+      <pose frame=''>-3332.604 32.362.3624299997464 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_25'>
+    <model name='Pylon_low_res_25'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -445,10 +445,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>492.003488000017 -625.948470000178 7.5 0 0 0</pose>
+      <pose frame=''>-3320.149 -1659.561.56113000028 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_26'>
+    <model name='Pylon_low_res_26'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -460,10 +460,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1179.12345700001 -1248.60520000011 7.5 0 0 0</pose>
+      <pose frame=''>-3310.604 -50.636.6360100004822 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_27'>
+    <model name='Pylon_low_res_27'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -475,10 +475,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1268.95932600001 -1306.77620999981 7.5 0 0 0</pose>
+      <pose frame=''>-3308.929 -1646.654.6543800002 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_28'>
+    <model name='Pylon_low_res_28'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -490,10 +490,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-544.652485000028 -296.433570000343 7.5 0 0 0</pose>
+      <pose frame=''>-3283.124 -653.128.128449999727 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_29'>
+    <model name='Pylon_low_res_29'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -505,10 +505,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-415.229745000019 -300.858260000125 7.5 0 0 0</pose>
+      <pose frame=''>-3278.056 -2004.767.7670400003 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_30'>
+    <model name='Pylon_low_res_30'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -520,10 +520,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-544.652485000028 -296.433570000343 7.5 0 0 0</pose>
+      <pose frame=''>-3272.605 -208.633.63396999985 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_31'>
+    <model name='Pylon_low_res_31'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -535,10 +535,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-632.872559999989 -319.21556000039 7.5 0 0 0</pose>
+      <pose frame=''>-3227.606 -423.631.631610000506 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_32'>
+    <model name='Pylon_low_res_32'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -550,10 +550,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1130.37262400001 411.104290000163 7.5 0 0 0</pose>
+      <pose frame=''>-3186.606 -620.629.629460000433 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_33'>
+    <model name='Pylon_low_res_33'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -565,10 +565,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>979.015177000023 337.163759999908 7.5 0 0 0</pose>
+      <pose frame=''>-3179.606 -645.629.629340000451 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_34'>
+    <model name='Pylon_low_res_34'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -580,10 +580,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>940.700638999988 313.708080000244 7.5 0 0 0</pose>
+      <pose frame=''>-3156.524 -2094.360.36027999967 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_35'>
+    <model name='Pylon_low_res_35'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -595,10 +595,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-503.375 -157.511309999973 7.5 0 0 0</pose>
+      <pose frame=''>-3150.371 -1629.036.03665000014 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_36'>
+    <model name='Pylon_low_res_36'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -610,10 +610,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-490.135226999992 -216.032540000044 7.5 0 0 0</pose>
+      <pose frame=''>-3059.884 -645.267.267300000414 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_37'>
+    <model name='Pylon_low_res_37'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -625,10 +625,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1189.80921199999 -152.514449999668 7.5 0 0 0</pose>
+      <pose frame=''>-3002.203 -1618.081.08169999998 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_38'>
+    <model name='Pylon_low_res_38'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -640,10 +640,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1111.24394000002 -395.872860000469 7.5 0 0 0</pose>
+      <pose frame=''>-2973.539 -2216.758.75846000016 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_39'>
+    <model name='Pylon_low_res_39'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -655,10 +655,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1430.83576599997 -492.496969999745 7.5 0 0 0</pose>
+      <pose frame=''>-2941.412 -655.502.502190000378 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_40'>
+    <model name='Pylon_low_res_40'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -670,10 +670,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1325.94547600002 -469.053650000133 7.5 0 0 0</pose>
+      <pose frame=''>-2893.974 -1597.396.39625999983 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_41'>
+    <model name='Pylon_low_res_41'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -685,10 +685,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1219.43616500002 -445.978319999762 7.5 0 0 0</pose>
+      <pose frame=''>-2858.808 -2312.764.76484999992 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_42'>
+    <model name='Pylon_low_res_42'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -700,10 +700,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1107.01371899998 -421.726990000345 7.5 0 0 0</pose>
+      <pose frame=''>-2833.139 -652.684.684080000036 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_43'>
+    <model name='Pylon_low_res_43'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -715,10 +715,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1268.95932600001 -1306.77620999981 7.5 0 0 0</pose>
+      <pose frame=''>-2772.622 -1580.566.56694999989 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_44'>
+    <model name='Pylon_low_res_44'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -730,10 +730,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1060.71067399997 -2260.59774000011 7.5 0 0 0</pose>
+      <pose frame=''>-2727.436 -662.570.57088000048 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_45'>
+    <model name='Pylon_low_res_45'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -745,10 +745,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>888.180560000008 -2296.28882999998 7.5 0 0 0</pose>
+      <pose frame=''>-2657.582 -669.005.005420000292 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_46'>
+    <model name='Pylon_low_res_46'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -760,10 +760,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1268.95932600001 -1306.77620999981 7.5 0 0 0</pose>
+      <pose frame=''>-2637.853 -1568.319.31976999994 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_47'>
+    <model name='Pylon_low_res_47'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -775,10 +775,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>465.386142999982 -626.631710000336 7.5 0 0 0</pose>
+      <pose frame=''>-2515.411 -683.495.495520000346 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_48'>
+    <model name='Pylon_low_res_48'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -790,10 +790,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>623.921732000017 -769.02864000015 7.5 0 0 0</pose>
+      <pose frame=''>-2493.476 -1561.155.15567000024 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_49'>
+    <model name='Pylon_low_res_49'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -805,10 +805,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>744.718548999983 -876.477669999935 7.5 0 0 0</pose>
+      <pose frame=''>-2450.644 -683.145.14506000001 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_50'>
+    <model name='Pylon_low_res_50'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -820,10 +820,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>853.156032000028 -975.716780000366 7.5 0 0 0</pose>
+      <pose frame=''>-2449.140 -685.374.374060000293 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_51'>
+    <model name='Pylon_low_res_51'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -835,10 +835,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1179.12345700001 -1248.60520000011 7.5 0 0 0</pose>
+      <pose frame=''>-2448.073 -660.457.457150000148 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_52'>
+    <model name='Pylon_low_res_52'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -850,10 +850,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1268.95932600001 -1306.77620999981 7.5 0 0 0</pose>
+      <pose frame=''>-2399.874 -1548.666.6669300003 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_53'>
+    <model name='Pylon_low_res_53'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -865,10 +865,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-411.92610099999 -300.971309999935 7.5 0 0 0</pose>
+      <pose frame=''>-2399.065 -1549.254.25494000036 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_54'>
+    <model name='Pylon_low_res_54'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -880,10 +880,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-244.415512999985 -289.984609999694 7.5 0 0 0</pose>
+      <pose frame=''>-2395.128 -604.979.97974000033 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_55'>
+    <model name='Pylon_low_res_55'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -895,10 +895,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-33.3457269999781 -276.977470000274 7.5 0 0 0</pose>
+      <pose frame=''>-2385.874 -1511.312.31221999973 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_56'>
+    <model name='Pylon_low_res_56'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -910,10 +910,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>119.581492000027 -383.281820000149 7.5 0 0 0</pose>
+      <pose frame=''>-2372.988 -1445.972.97255999967 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_57'>
+    <model name='Pylon_low_res_57'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -925,10 +925,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>274.539775000012 -492.56625999976 7.5 0 0 0</pose>
+      <pose frame=''>-2362.378 -697.961.961740000173 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_58'>
+    <model name='Pylon_low_res_58'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -940,10 +940,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>465.386142999982 -626.631710000336 7.5 0 0 0</pose>
+      <pose frame=''>-2344.289 -1360.288.28813999984 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_59'>
+    <model name='Pylon_low_res_59'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -955,10 +955,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-604.243183000013 -227.165740000084 7.5 0 0 0</pose>
+      <pose frame=''>-2326.189 -1259.260.26061000023 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_60'>
+    <model name='Pylon_low_res_60'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -970,10 +970,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-626.51709899999 -283.63628999982 7.5 0 0 0</pose>
+      <pose frame=''>-2289.802 -1148.681.68128999975 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_61'>
+    <model name='Pylon_low_res_61'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -985,10 +985,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-694.034838999971 -389.265540000051 7.5 0 0 0</pose>
+      <pose frame=''>-2274.393 -1083.768.76860000007 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_62'>
+    <model name='Pylon_low_res_62'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1000,10 +1000,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-738.037996999978 -358.049780000001 7.5 0 0 0</pose>
+      <pose frame=''>-2256.166 -703.330.330610000528 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_63'>
+    <model name='Pylon_low_res_63'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1015,10 +1015,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-886.759897999989 -375.461290000007 7.5 0 0 0</pose>
+      <pose frame=''>-2236.082 -947.377.377279999666 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_64'>
+    <model name='Pylon_low_res_64'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1030,10 +1030,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-887.529638000007 -366.336249999702 7.5 0 0 0</pose>
+      <pose frame=''>-2214.664 -873.946.946620000526 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_65'>
+    <model name='Pylon_low_res_65'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1045,10 +1045,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1107.01371899998 -421.726990000345 7.5 0 0 0</pose>
+      <pose frame=''>-2184.567 -713.625.62519000005 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_66'>
+    <model name='Pylon_low_res_66'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1060,10 +1060,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-886.759897999989 -375.461290000007 7.5 0 0 0</pose>
+      <pose frame=''>-2184.477 -726.603.603160000406 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_67'>
+    <model name='Pylon_low_res_67'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1075,10 +1075,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-766.971811000025 -339.191960000433 7.5 0 0 0</pose>
+      <pose frame=''>-2168.496 -920.500.500970000401 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_68'>
+    <model name='Pylon_low_res_68'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1090,10 +1090,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-886.759897999989 -375.461290000007 7.5 0 0 0</pose>
+      <pose frame=''>-2148.897 -1040.636.63697000034 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_69'>
+    <model name='Pylon_low_res_69'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1105,10 +1105,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-766.971811000025 -339.191960000433 7.5 0 0 0</pose>
+      <pose frame=''>-2119.091 -1240.634.63499000017 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_70'>
+    <model name='Pylon_low_res_70'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1120,10 +1120,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-632.872559999989 -319.21556000039 7.5 0 0 0</pose>
+      <pose frame=''>-2095.076 -733.158.158909999766 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_71'>
+    <model name='Pylon_low_res_71'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1135,10 +1135,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>450.962355000025 -628.951849999838 7.5 0 0 0</pose>
+      <pose frame=''>-2094.589 -730.198.198920000345 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_72'>
+    <model name='Pylon_low_res_72'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1150,10 +1150,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>385.329582999984 -841.918279999867 7.5 0 0 0</pose>
+      <pose frame=''>-2093.103 -721.169.1699400004 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_73'>
+    <model name='Pylon_low_res_73'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1165,10 +1165,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>359.693716000009 -926.302210000344 7.5 0 0 0</pose>
+      <pose frame=''>-2038.547 -1347.157.15779000055 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_74'>
+    <model name='Pylon_low_res_74'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1180,10 +1180,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>301.032782999973 -1121.29932999983 7.5 0 0 0</pose>
+      <pose frame=''>-2026.709 -674.771.771540000103 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_75'>
+    <model name='Pylon_low_res_75'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1195,10 +1195,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>465.386142999982 -626.631710000336 7.5 0 0 0</pose>
+      <pose frame=''>-1992.377 -653.073.073839999735 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_76'>
+    <model name='Pylon_low_res_76'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1210,10 +1210,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>450.962355000025 -628.951849999838 7.5 0 0 0</pose>
+      <pose frame=''>-1961.076 -1458.349.34965000022 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_77'>
+    <model name='Pylon_low_res_77'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1225,10 +1225,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>763.612918000028 106.665040000342 7.5 0 0 0</pose>
+      <pose frame=''>-1899.613 -629.023.023590000346 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_78'>
+    <model name='Pylon_low_res_78'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1240,10 +1240,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>940.700638999988 313.708080000244 7.5 0 0 0</pose>
+      <pose frame=''>-1874.124 -1606.555.55572000053 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_79'>
+    <model name='Pylon_low_res_79'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1255,10 +1255,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>706.769634999975 222.340529999696 7.5 0 0 0</pose>
+      <pose frame=''>-1867.833 -1598.355.35581000056 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_80'>
+    <model name='Pylon_low_res_80'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1270,10 +1270,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>592.242772000027 -1873.8901399998 7.5 0 0 0</pose>
+      <pose frame=''>-1764.195 -587.707.707639999688 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_81'>
+    <model name='Pylon_low_res_81'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1285,10 +1285,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>505.381302999973 -1773.97470000014 7.5 0 0 0</pose>
+      <pose frame=''>-1755.219 -1697.212.2123499997 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_82'>
+    <model name='Pylon_low_res_82'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1300,10 +1300,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>498.389349000005 -1595.91313000023 7.5 0 0 0</pose>
+      <pose frame=''>-1665.657 -555.446.446360000409 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_83'>
+    <model name='Pylon_low_res_83'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1315,10 +1315,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>493.880971000006 -1403.2004300002 7.5 0 0 0</pose>
+      <pose frame=''>-1663.634 -562.797.797380000353 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_84'>
+    <model name='Pylon_low_res_84'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1330,10 +1330,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>375.963669000019 -1183.52830999997 7.5 0 0 0</pose>
+      <pose frame=''>-1606.724 -1785.800.80052000005 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_85'>
+    <model name='Pylon_low_res_85'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1345,10 +1345,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-492.757143000024 -240.601719999686 7.5 0 0 0</pose>
+      <pose frame=''>-1523.514 -516.546.546350000426 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_86'>
+    <model name='Pylon_low_res_86'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1360,10 +1360,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-392.998053000018 -203.197490000166 7.5 0 0 0</pose>
+      <pose frame=''>-1493.935 -1882.216.21631000005 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_87'>
+    <model name='Pylon_low_res_87'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1375,10 +1375,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-301.307411000016 -167.065340000205 7.5 0 0 0</pose>
+      <pose frame=''>-1456.758 -1858.442.44280999992 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_88'>
+    <model name='Pylon_low_res_88'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1390,10 +1390,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-208.054729999974 -131.734149999917 7.5 0 0 0</pose>
+      <pose frame=''>-1430.835 -492.496.496969999745 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_89'>
+    <model name='Pylon_low_res_89'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1405,10 +1405,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-118.766291000007 -97.6030000001192 7.5 0 0 0</pose>
+      <pose frame=''>-1325.945 -469.053.053650000133 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_90'>
+    <model name='Pylon_low_res_90'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1420,10 +1420,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-28.6328119999962 -63.1698200004175 7.5 0 0 0</pose>
+      <pose frame=''>-1314.445 -1935.237.23711999971 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_91'>
+    <model name='Pylon_low_res_91'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1435,10 +1435,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>62.3217029999942 -28.5356000000611 7.5 0 0 0</pose>
+      <pose frame=''>-1304.038 -1918.157.1572200004 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_92'>
+    <model name='Pylon_low_res_92'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1450,10 +1450,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>65.0018619999755 -27.6165700005367 7.5 0 0 0</pose>
+      <pose frame=''>-1219.436 -445.978.978319999762 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_93'>
+    <model name='Pylon_low_res_93'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1465,10 +1465,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>948.060441999987 295.097969999537 7.5 0 0 0</pose>
+      <pose frame=''>-1189.809 -152.514.514449999668 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_94'>
+    <model name='Pylon_low_res_94'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1480,10 +1480,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>940.700638999988 313.708080000244 7.5 0 0 0</pose>
+      <pose frame=''>-1164.946 -1955.250.25044000056 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_95'>
+    <model name='Pylon_low_res_95'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1495,10 +1495,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4028.02629900002 -658.153370000422 7.5 0 0 0</pose>
+      <pose frame=''>-1111.243 -395.872.872860000469 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_96'>
+    <model name='Pylon_low_res_96'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1510,10 +1510,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4029.28685400001 -641.126559999771 7.5 0 0 0</pose>
+      <pose frame=''>-1107.013 -421.726.726990000345 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_97'>
+    <model name='Pylon_low_res_97'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1525,10 +1525,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4025.59562099999 -744.627360000275 7.5 0 0 0</pose>
+      <pose frame=''>-1019.380 -1973.884.88473000005 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_98'>
+    <model name='Pylon_low_res_98'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1540,10 +1540,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4028.02629900002 -658.153370000422 7.5 0 0 0</pose>
+      <pose frame=''>-887.529 -366.336.336249999702 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_99'>
+    <model name='Pylon_low_res_99'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1555,10 +1555,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3462.44342199998 -1903.77507000044 7.5 0 0 0</pose>
+      <pose frame=''>-886.759 -375.461.461290000007 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_100'>
+    <model name='Pylon_low_res_100'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1570,10 +1570,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3586.00143300003 -2029.2550499998 7.5 0 0 0</pose>
+      <pose frame=''>-871.444 -1991.265.26549999975 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_101'>
+    <model name='Pylon_low_res_101'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1585,10 +1585,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3462.44342199998 -1903.77507000044 7.5 0 0 0</pose>
+      <pose frame=''>-766.971 -339.191.191960000433 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_102'>
+    <model name='Pylon_low_res_102'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1600,10 +1600,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3428.44699799997 -1903.26658000052 7.5 0 0 0</pose>
+      <pose frame=''>-738.037 -358.049.049780000001 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_103'>
+    <model name='Pylon_low_res_103'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1615,10 +1615,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-458.088718999992 -2000.42551000044 7.5 0 0 0</pose>
+      <pose frame=''>-733.149 -2007.442.44290000014 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_104'>
+    <model name='Pylon_low_res_104'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1630,10 +1630,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-483.330613999977 -1956.11034999974 7.5 0 0 0</pose>
+      <pose frame=''>-694.034 -389.265.265540000051 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_105'>
+    <model name='Pylon_low_res_105'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1645,10 +1645,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-503.435740999994 -1927.4612800004 7.5 0 0 0</pose>
+      <pose frame=''>-632.872 -319.215.21556000039 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_106'>
+    <model name='Pylon_low_res_106'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1660,10 +1660,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-483.330613999977 -1956.11034999974 7.5 0 0 0</pose>
+      <pose frame=''>-626.517 -283.636.63628999982 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_107'>
+    <model name='Pylon_low_res_107'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1675,10 +1675,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1314.44553000003 -1935.23711999971 7.5 0 0 0</pose>
+      <pose frame=''>-604.243 -227.165.165740000084 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_108'>
+    <model name='Pylon_low_res_108'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1690,10 +1690,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1164.94638600003 -1955.25044000056 7.5 0 0 0</pose>
+      <pose frame=''>-544.652 -296.433.433570000343 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_109'>
+    <model name='Pylon_low_res_109'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1705,10 +1705,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1019.38025400002 -1973.88473000005 7.5 0 0 0</pose>
+      <pose frame=''>-503.435 -1927.461.4612800004 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_110'>
+    <model name='Pylon_low_res_110'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1720,10 +1720,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-871.444939000008 -1991.26549999975 7.5 0 0 0</pose>
+      <pose frame=''>-503.375 -157.511.511309999973 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_111'>
+    <model name='Pylon_low_res_111'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1735,10 +1735,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-733.149266000022 -2007.44290000014 7.5 0 0 0</pose>
+      <pose frame=''>-492.757 -240.601.601719999686 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_112'>
+    <model name='Pylon_low_res_112'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1750,10 +1750,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-503.435740999994 -1927.4612800004 7.5 0 0 0</pose>
+      <pose frame=''>-490.135 -216.032.032540000044 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_113'>
+    <model name='Pylon_low_res_113'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1765,10 +1765,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1755.219346 -1697.2123499997 7.5 0 0 0</pose>
+      <pose frame=''>-483.330 -1956.110.11034999974 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_114'>
+    <model name='Pylon_low_res_114'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1780,10 +1780,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1606.72430499998 -1785.80052000005 7.5 0 0 0</pose>
+      <pose frame=''>-458.088 -2000.425.42551000044 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_115'>
+    <model name='Pylon_low_res_115'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1795,10 +1795,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1456.75878500001 -1858.44280999992 7.5 0 0 0</pose>
+      <pose frame=''>-415.229 -300.858.858260000125 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_116'>
+    <model name='Pylon_low_res_116'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1810,10 +1810,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2395.12828399998 -604.97974000033 7.5 0 0 0</pose>
+      <pose frame=''>-411.926 -300.971.971309999935 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_117'>
+    <model name='Pylon_low_res_117'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1825,10 +1825,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2448.07371999999 -660.457150000148 7.5 0 0 0</pose>
+      <pose frame=''>-392.998 -203.197.197490000166 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_118'>
+    <model name='Pylon_low_res_118'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1840,10 +1840,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2450.64444 -683.14506000001 7.5 0 0 0</pose>
+      <pose frame=''>-301.307 -167.065.065340000205 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_119'>
+    <model name='Pylon_low_res_119'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1855,10 +1855,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2515.41137599997 -683.495520000346 7.5 0 0 0</pose>
+      <pose frame=''>-244.415 -289.984.984609999694 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_120'>
+    <model name='Pylon_low_res_120'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1870,10 +1870,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2657.58297699998 -669.005420000292 7.5 0 0 0</pose>
+      <pose frame=''>-208.054 -131.734.734149999917 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_121'>
+    <model name='Pylon_low_res_121'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1885,10 +1885,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2727.43678599998 -662.57088000048 7.5 0 0 0</pose>
+      <pose frame=''>-118.766 -97.603.6030000001192 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_122'>
+    <model name='Pylon_low_res_122'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1900,10 +1900,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2833.13900999998 -652.684080000036 7.5 0 0 0</pose>
+      <pose frame=''>-33.345 -276.977.977470000274 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_123'>
+    <model name='Pylon_low_res_123'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1915,10 +1915,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2941.41264499997 -655.502190000378 7.5 0 0 0</pose>
+      <pose frame=''>-28.632 -63.169.1698200004175 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_124'>
+    <model name='Pylon_low_res_124'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1930,10 +1930,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3059.88404799998 -645.267300000414 7.5 0 0 0</pose>
+      <pose frame=''>62.321 -28.535 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_125'>
+    <model name='Pylon_low_res_125'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1945,10 +1945,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3179.60677700001 -645.629340000451 7.5 0 0 0</pose>
+      <pose frame=''>63.425 -21.850 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_126'>
+    <model name='Pylon_low_res_126'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1960,10 +1960,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2450.64444 -683.14506000001 7.5 0 0 0</pose>
+      <pose frame=''>65.001 -27.616 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_127'>
+    <model name='Pylon_low_res_127'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1975,10 +1975,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2448.07371999999 -660.457150000148 7.5 0 0 0</pose>
+      <pose frame=''>119.581 -383.281 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_128'>
+    <model name='Pylon_low_res_128'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -1990,10 +1990,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2184.56757100002 -713.62519000005 7.5 0 0 0</pose>
+      <pose frame=''>162.857 5.807 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_129'>
+    <model name='Pylon_low_res_129'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2005,10 +2005,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2184.47796699998 -726.603160000406 7.5 0 0 0</pose>
+      <pose frame=''>252.635 36.813 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_130'>
+    <model name='Pylon_low_res_130'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2020,10 +2020,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3179.60677700001 -645.629340000451 7.5 0 0 0</pose>
+      <pose frame=''>274.539 -492.566 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_131'>
+    <model name='Pylon_low_res_131'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2035,10 +2035,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3186.60615800001 -620.629460000433 7.5 0 0 0</pose>
+      <pose frame=''>301.032 -1121.299 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_132'>
+    <model name='Pylon_low_res_132'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2050,10 +2050,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1314.44553000003 -1935.23711999971 7.5 0 0 0</pose>
+      <pose frame=''>350.383 70.164 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_133'>
+    <model name='Pylon_low_res_133'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2065,10 +2065,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1304.03885499999 -1918.1572200004 7.5 0 0 0</pose>
+      <pose frame=''>359.693 -926.302 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_134'>
+    <model name='Pylon_low_res_134'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2080,10 +2080,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1867.83366200002 -1598.35581000056 7.5 0 0 0</pose>
+      <pose frame=''>375.963 -1183.528 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_135'>
+    <model name='Pylon_low_res_135'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2095,10 +2095,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1755.219346 -1697.2123499997 7.5 0 0 0</pose>
+      <pose frame=''>385.329 -841.918 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_136'>
+    <model name='Pylon_low_res_136'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2110,10 +2110,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1867.83366200002 -1598.35581000056 7.5 0 0 0</pose>
+      <pose frame=''>446.780 102.711 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_137'>
+    <model name='Pylon_low_res_137'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2125,10 +2125,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1874.12499799998 -1606.55572000053 7.5 0 0 0</pose>
+      <pose frame=''>450.962 -628.951 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_138'>
+    <model name='Pylon_low_res_138'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2140,10 +2140,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3308.92922599998 -1646.6543800002 7.5 0 0 0</pose>
+      <pose frame=''>465.386 -626.631 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_139'>
+    <model name='Pylon_low_res_139'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2155,10 +2155,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3320.14973499998 -1659.56113000028 7.5 0 0 0</pose>
+      <pose frame=''>492.003 -625.948 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_140'>
+    <model name='Pylon_low_res_140'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2170,10 +2170,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2858.808166 -2312.76484999992 7.5 0 0 0</pose>
+      <pose frame=''>493.880 -1403.200 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_141'>
+    <model name='Pylon_low_res_141'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2185,10 +2185,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2973.53966100002 -2216.75846000016 7.5 0 0 0</pose>
+      <pose frame=''>498.389 -1595.913 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_142'>
+    <model name='Pylon_low_res_142'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2200,10 +2200,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3156.524232 -2094.36027999967 7.5 0 0 0</pose>
+      <pose frame=''>505.381 -1773.974 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_143'>
+    <model name='Pylon_low_res_143'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2215,10 +2215,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3278.05609000003 -2004.7670400003 7.5 0 0 0</pose>
+      <pose frame=''>543.199 136.867 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_144'>
+    <model name='Pylon_low_res_144'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2230,10 +2230,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3400.89695899998 -1913.60089999996 7.5 0 0 0</pose>
+      <pose frame=''>592.242 -1873.890 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_145'>
+    <model name='Pylon_low_res_145'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2245,10 +2245,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1867.83366200002 -1598.35581000056 7.5 0 0 0</pose>
+      <pose frame=''>623.921 -769.028 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_146'>
+    <model name='Pylon_low_res_146'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2260,10 +2260,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1961.07649499999 -1458.34965000022 7.5 0 0 0</pose>
+      <pose frame=''>641.646 169.929 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_147'>
+    <model name='Pylon_low_res_147'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2275,10 +2275,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2038.547058 -1347.15779000055 7.5 0 0 0</pose>
+      <pose frame=''>699.291 219.419 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_148'>
+    <model name='Pylon_low_res_148'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2290,10 +2290,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2119.09183699999 -1240.63499000017 7.5 0 0 0</pose>
+      <pose frame=''>706.769 222.340 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_149'>
+    <model name='Pylon_low_res_149'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2305,10 +2305,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2148.89709599997 -1040.63697000034 7.5 0 0 0</pose>
+      <pose frame=''>744.718 -876.477 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_150'>
+    <model name='Pylon_low_res_150'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2320,10 +2320,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2168.49668099999 -920.500970000401 7.5 0 0 0</pose>
+      <pose frame=''>756.432 103.136 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_151'>
+    <model name='Pylon_low_res_151'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2335,10 +2335,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2095.07689799997 -733.158909999766 7.5 0 0 0</pose>
+      <pose frame=''>763.612 106.665 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_152'>
+    <model name='Pylon_low_res_152'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2350,10 +2350,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2095.07689799997 -733.158909999766 7.5 0 0 0</pose>
+      <pose frame=''>853.156 -975.716 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_153'>
+    <model name='Pylon_low_res_153'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2365,10 +2365,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2026.70912299998 -674.771540000103 7.5 0 0 0</pose>
+      <pose frame=''>888.180 -2296.288 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_154'>
+    <model name='Pylon_low_res_154'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2380,10 +2380,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1992.37795900001 -653.073839999735 7.5 0 0 0</pose>
+      <pose frame=''>940.700 313.708 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_155'>
+    <model name='Pylon_low_res_155'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2395,10 +2395,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2026.70912299998 -674.771540000103 7.5 0 0 0</pose>
+      <pose frame=''>948.060 295.097 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_156'>
+    <model name='Pylon_low_res_156'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2410,10 +2410,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2184.56757100002 -713.62519000005 7.5 0 0 0</pose>
+      <pose frame=''>979.015 337.163 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_157'>
+    <model name='Pylon_low_res_157'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2425,10 +2425,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1992.37795900001 -653.073839999735 7.5 0 0 0</pose>
+      <pose frame=''>1000.846 -612.240 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_158'>
+    <model name='Pylon_low_res_158'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2440,10 +2440,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3320.14973499998 -1659.56113000028 7.5 0 0 0</pose>
+      <pose frame=''>1060.710 -2260.597 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_159'>
+    <model name='Pylon_low_res_159'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2455,10 +2455,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3374.30221400002 -1793.21528999973 7.5 0 0 0</pose>
+      <pose frame=''>1123.263 428.908 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_160'>
+    <model name='Pylon_low_res_160'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2470,10 +2470,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-3418.447873 -1903.11672999989 7.5 0 0 0</pose>
+      <pose frame=''>1130.372 411.104 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_161'>
+    <model name='Pylon_low_res_161'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2485,10 +2485,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4029.28685400001 -641.126559999771 7.5 0 0 0</pose>
+      <pose frame=''>1179.123 -1248.605 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_162'>
+    <model name='Pylon_low_res_162'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2500,10 +2500,10 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4030.025593 -631.153669999912 7.5 0 0 0</pose>
+      <pose frame=''>1245.510 -1131.273 7.5 0 0 0</pose>
     </model>
 
-    <model name='Pilar_low_res_163'>
+    <model name='Pylon_low_res_163'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2515,1027 +2515,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-4030.025593 -631.153669999912 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_164'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-4092.74444600003 -629.363189999946 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_165'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-4203.29799400002 -627.78433000017 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_166'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3179.60677700001 -645.629340000451 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_167'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3283.12447799998 -653.128449999727 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_168'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3407.69304599997 -645.406510000117 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_169'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3511.51050600002 -644.344680000097 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_170'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3631.20617899997 -642.700740000233 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_171'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3731.74360099999 -641.90894000046 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_172'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3838.80099700001 -636.781130000018 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_173'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3950.72747799999 -632.099290000275 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_174'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-4030.025593 -631.153669999912 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_175'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2093.10350099998 -721.1699400004 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_176'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2094.58980000002 -730.198920000345 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_177'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2094.58980000002 -730.198920000345 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_178'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2095.07689799997 -733.158909999766 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_179'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-4222.45197699999 -2178.61919 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_180'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-4132.36293599999 -2178.62067000009 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_181'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3963.44886200002 -2283.72525000013 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_182'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3586.00143300003 -2029.2550499998 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_183'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3418.447873 -1903.11672999989 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_184'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3428.44699799997 -1903.26658000052 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_185'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1456.75878500001 -1858.44280999992 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_186'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1314.44553000003 -1935.23711999971 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_187'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1456.75878500001 -1858.44280999992 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_188'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1493.93599500001 -1882.21631000005 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_189'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3418.447873 -1903.11672999989 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_190'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3479.85561999999 -1974.14618999977 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_191'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3357.90429999999 -1627.72087999992 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_192'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3308.92922599998 -1646.6543800002 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_193'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3308.92922599998 -1646.6543800002 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_194'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3150.37173100002 -1629.03665000014 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_195'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3002.20355099998 -1618.08169999998 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_196'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2893.974583 -1597.39625999983 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_197'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2772.622554 -1580.56694999989 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_198'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2637.85348400002 -1568.31976999994 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_199'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2493.47643899999 -1561.15567000024 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_200'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2399.87487399997 -1548.6669300003 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_201'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2184.47796699998 -726.603160000406 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_202'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2214.66489800002 -873.946620000526 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_203'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2236.08243800001 -947.377279999666 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_204'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2274.39312099997 -1083.76860000007 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_205'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2289.80230500002 -1148.68128999975 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_206'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2326.189151 -1259.26061000023 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_207'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2344.28945400001 -1360.28813999984 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_208'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2372.98842299997 -1445.97255999967 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_209'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2385.87456600001 -1511.31221999973 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_210'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2399.87487399997 -1548.6669300003 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_211'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2450.64444 -683.14506000001 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_212'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2449.14048599999 -685.374060000293 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_213'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2362.37862700003 -697.961740000173 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_214'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2256.16627599997 -703.330610000528 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_215'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2184.56757100002 -713.62519000005 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_216'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1430.83576599997 -492.496969999745 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_217'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1523.51488799998 -516.546350000426 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_218'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1663.63439299999 -562.797380000353 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_219'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1665.65719100001 -555.446360000409 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_220'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1764.195634 -587.707639999688 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_221'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1899.61388000002 -629.023590000346 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_222'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-1992.37795900001 -653.073839999735 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_223'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2399.87487399997 -1548.6669300003 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_224'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-2399.06588200002 -1549.25494000036 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_225'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3400.89695899998 -1913.60089999996 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_226'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3418.447873 -1903.11672999989 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_227'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3332.604643 32.3624299997464 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_228'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3310.60466999997 -50.6360100004822 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_229'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3272.60560499999 -208.63396999985 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_230'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3227.60609399999 -423.631610000506 7.5 0 0 0</pose>
-    </model>
-
-    <model name='Pilar_low_res_231'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>15</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-3186.60615800001 -620.629460000433 7.5 0 0 0</pose>
+      <pose frame=''>1268.959 -1306.776 7.5 0 0 0</pose>
     </model>
 
 
