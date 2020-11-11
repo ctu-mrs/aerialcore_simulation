@@ -40,6 +40,20 @@
       <name>target</name>
     </include>
 
+    <!-- Include charging_pad_bolognini_s1 -->
+    <include>
+      <uri>model://charging_pad_bolognini_s1</uri>
+      <pose>0 1.5 0 0 0 o</pose>
+      <name>charging_pad</name>
+    </include>
+
+    <!-- Include sensefly_ebee -->
+    <include>
+      <uri>model://sensefly_ebee</uri>
+      <pose>1.5 1 0 1.570796327 0 o</pose>
+      <name>sensefly_ebee_uav</name>
+    </include>
+
     <!-- World state: rotate (ENU) and center the origin of the simulator -->
     <state world_name='ATLAS_power_lines_world'>
       <model name='ATLAS_ground'>

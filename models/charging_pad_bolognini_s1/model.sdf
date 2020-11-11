@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="charging_pad_bolognini_s1">
+    <static>true</static>
+    <link name="floor">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://charging_pad_bolognini_s1/meshes/charging_pad_bolognini_s1.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://charging_pad_bolognini_s1/meshes/charging_pad_bolognini_s1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

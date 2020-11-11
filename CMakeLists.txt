@@ -87,6 +87,10 @@ link_directories(${GAZEBO_LIBRARY_DIRS})
 
 ##  world plugins
 add_library(SpawnerGazeboPlugin SHARED src/world_plugins/spawner_gazebo_plugin.cc)
+target_link_libraries(SpawnerGazeboPlugin
+  ${GAZEBO_LIBRARIES}
+  ${catkin_LIBRARIES}
+  )
 
 add_library(PowerlineGazeboPlugin SHARED src/world_plugins/powerline_gazebo_plugin.cc)
 target_link_libraries(PowerlineGazeboPlugin 
@@ -101,7 +105,10 @@ target_link_libraries(DynamicModelPlugin
   )
 
 add_library(DynamicMapPlugin SHARED src/world_plugins/DynamicMapPlugin.cc)
+<<<<<<< HEAD
 target_link_libraries(SpawnerGazeboPlugin
   ${GAZEBO_LIBRARIES}
   ${catkin_LIBRARIES}
   )
+=======
+>>>>>>> 133353df51a9c716b0e361a79557b5f5ab2e0640
