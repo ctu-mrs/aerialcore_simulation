@@ -119,11 +119,12 @@
       <name>power_tower_danube_wires</name>
     </include>
 
+    <!-- TO FIX @Alfonso  
     <include>
       <uri>model://jeff_electrician</uri>
-      <pose> 0 0 0 0 0 0 </pose>
+      <pose> 0 10 0 0 0 0 </pose>
       <name>jeff_electrician</name>
-    </include>
+    </include> -->
 
   
 
