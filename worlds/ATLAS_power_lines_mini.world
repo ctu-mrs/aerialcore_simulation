@@ -56,7 +56,7 @@
 
     <gui>
       <camera name="user_camera">
-        <pose>21.775564 68.897804 3.861139 0 0.147643 -0.798986</pose>
+        <pose>24.148495 71.166466 4.093581 0 0.159644 -0.806984</pose>
         <clip>
           <near>0.001</near>
           <far>10000</far>
@@ -74,12 +74,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-409.120 449.015 7.5 0 0 0</pose>
+      <pose frame=''>-409.120 449.015 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_2'>
@@ -90,12 +90,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-430.169 276.424 7.5 0 0 0</pose>
+      <pose frame=''>-430.169 276.424 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_3'>
@@ -106,12 +106,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-450.540 108.275 7.5 0 0 0</pose>
+      <pose frame=''>-450.540 108.275 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_4'>
@@ -122,12 +122,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-470.078 -41.682 7.5 0 0 0</pose>
+      <pose frame=''>-470.078 -41.682 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_5'>
@@ -138,12 +138,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-490.208 -215.834 7.5 0 0 0</pose>
+      <pose frame=''>-490.208 -215.834 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_6'>
@@ -154,12 +154,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-492.875 -240.864 7.5 0 0 0</pose>
+      <pose frame=''>-492.875 -240.864 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_7'>
@@ -170,12 +170,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-598.496 -281.095 7.5 0 0 0</pose>
+      <pose frame=''>-598.496 -281.095 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_8'>
@@ -186,12 +186,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-633.009 -319.444 7.5 0 0 0</pose>
+      <pose frame=''>-633.009 -319.444 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_9'>
@@ -202,12 +202,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-627.564 -283.028 7.5 0 0 0</pose>
+      <pose frame=''>-627.564 -283.028 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_10'>
@@ -218,12 +218,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-611.221 -232.533 7.5 0 0 0</pose>
+      <pose frame=''>-611.221 -232.533 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_11'>
@@ -234,12 +234,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-756.512 -346.437 7.5 0 0 0</pose>
+      <pose frame=''>-756.512 -346.437 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_12'>
@@ -250,12 +250,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-544.794 -296.507 7.5 0 0 0</pose>
+      <pose frame=''>-544.794 -296.507 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_13'>
@@ -266,12 +266,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-413.182 -301.398 7.5 0 0 0</pose>
+      <pose frame=''>-413.182 -301.398 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_14'>
@@ -282,12 +282,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-244.429 -290.325 7.5 0 0 0</pose>
+      <pose frame=''>-244.429 -290.325 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_15'>
@@ -298,12 +298,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-32.435 -276.509 7.5 0 0 0</pose>
+      <pose frame=''>-32.435 -276.509 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_16'>
@@ -314,12 +314,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>119.719 -383.291 7.5 0 0 0</pose>
+      <pose frame=''>119.719 -383.291 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_17'>
@@ -330,12 +330,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>276.420 -493.459 7.5 0 0 0</pose>
+      <pose frame=''>276.420 -493.459 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_18'>
@@ -346,12 +346,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-391.957 -202.912 7.5 0 0 0</pose>
+      <pose frame=''>-391.957 -202.912 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_19'>
@@ -362,12 +362,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-301.302 -167.188 7.5 0 0 0</pose>
+      <pose frame=''>-301.302 -167.188 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_20'>
@@ -378,12 +378,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-208.036 -131.632 7.5 0 0 0</pose>
+      <pose frame=''>-208.036 -131.632 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_21'>
@@ -394,12 +394,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-118.176 -97.355 7.5 0 0 0</pose>
+      <pose frame=''>-118.176 -97.355 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_22'>
@@ -410,12 +410,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-28.178 -63.028 7.5 0 0 0</pose>
+      <pose frame=''>-28.178 -63.028 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_23'>
@@ -426,12 +426,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>65.174 -27.481 7.5 0 0 0</pose>
+      <pose frame=''>65.174 -27.481 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_24'>
@@ -442,12 +442,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>62.631 -21.742 7.5 0 0 0</pose>
+      <pose frame=''>62.631 -21.742 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_25'>
@@ -458,12 +458,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>163.171 6.176 7.5 0 0 0</pose>
+      <pose frame=''>163.171 6.176 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_26'>
@@ -474,12 +474,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>252.476 37.164 7.5 0 0 0</pose>
+      <pose frame=''>252.476 37.164 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_27'>
@@ -490,12 +490,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>351.502 70.480 7.5 0 0 0</pose>
+      <pose frame=''>351.502 70.480 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_28'>
@@ -506,12 +506,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>447.289 103.004 7.5 0 0 0</pose>
+      <pose frame=''>447.289 103.004 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_29'>
@@ -522,12 +522,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>543.828 136.838 7.5 0 0 0</pose>
+      <pose frame=''>543.828 136.838 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_30'>
@@ -538,12 +538,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>641.898 170.080 7.5 0 0 0</pose>
+      <pose frame=''>641.898 170.080 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_31'>
@@ -554,12 +554,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>719.770 208.398 7.5 0 0 0</pose>
+      <pose frame=''>719.770 208.398 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_32'>
@@ -570,12 +570,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>769.668 108.103 7.5 0 0 0</pose>
+      <pose frame=''>769.668 108.103 6.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_33'>
@@ -586,12 +586,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>15</length>
+              <length>13</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>894.348 293.824 7.5 0 0 0</pose>
+      <pose frame=''>894.348 293.824 6.5 0 0 0</pose>
     </model>
 
 
