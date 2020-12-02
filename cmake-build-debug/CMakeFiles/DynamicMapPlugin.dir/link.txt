@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++17 -O3 -Wall -g  -shared -Wl,-soname,libDynamicMapPlugin.so -o devel/lib/libDynamicMapPlugin.so CMakeFiles/DynamicMapPlugin.dir/src/world_plugins/DynamicMapPlugin.cc.o   -L/usr/lib/x86_64-linux-gnu/gazebo-9/plugins 

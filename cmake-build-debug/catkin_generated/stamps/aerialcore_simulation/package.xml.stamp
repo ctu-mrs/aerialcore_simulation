@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>aerialcore_simulation</name>
+  <version>1.0.0</version>
+  <description>This package contains gazebo files (worlds, models) for the Aerial-Core project.</description>
+
+  <author email="vit.kratky@fel.cvut.cz">Vit Kratky</author>
+  <maintainer email="vit.kratky@fel.cvut.cz">Vit Kratky</maintainer>
+
+  <license>BSD 3-Clause</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_export_depend>boost</build_export_depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_msgs</depend>
+  <depend>qt</depend>
+  <depend>gazebo</depend>
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_plugins</depend>
+
+  <export>
+    <!-- gazebo_ros_paths_plugin automatically adds these to
+      GAZEBO_PLUGIN_PATH and GAZEBO_MODEL_PATH when you do this export inside
+      the package.xml file. You can than use URIs of type model://my_package/stuff. -->
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+    <gazebo_ros gazebo_media_path="${prefix}"/>
+    <gazebo_ros plugin_path="${prefix}/lib"/>
+  </export>
+
+</package>
