@@ -1,6 +1,6 @@
 joystick:
 
-  enabled: true
+  enabled: false
 
   # the trajectory mode is for debugging trajectory control ONLY
   mode: 0 # {0 = goto, 1 = trajectory}
