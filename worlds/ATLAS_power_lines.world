@@ -74,12 +74,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>49</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-409.120 449.015 6.5 0 0 0</pose>
+      <pose frame=''>-409.120 449.015 24.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_2'>
@@ -90,12 +90,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>30</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-430.169 276.424 6.5 0 0 0</pose>
+      <pose frame=''>-430.169 276.424 15 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_3'>
@@ -106,12 +106,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>14</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-450.540 108.275 6.5 0 0 0</pose>
+      <pose frame=''>-450.540 108.275 7 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_4'>
@@ -122,12 +122,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>8</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-470.078 -41.682 6.5 0 0 0</pose>
+      <pose frame=''>-470.078 -41.682 4 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_5'>
@@ -138,12 +138,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>10</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-490.208 -215.834 6.5 0 0 0</pose>
+      <pose frame=''>-490.208 -215.834 5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_6'>
@@ -154,12 +154,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>11</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-492.875 -240.864 6.5 0 0 0</pose>
+      <pose frame=''>-492.875 -240.864 5.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_7'>
@@ -170,12 +170,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>6</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-598.496 -281.095 6.5 0 0 0</pose>
+      <pose frame=''>-598.496 -281.095 3 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_8'>
@@ -186,12 +186,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>6</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-633.009 -319.444 6.5 0 0 0</pose>
+      <pose frame=''>-633.009 -319.444 3 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_9'>
@@ -202,12 +202,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>6</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-627.564 -283.028 6.5 0 0 0</pose>
+      <pose frame=''>-627.564 -283.028 3 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_10'>
@@ -218,12 +218,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>6</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-611.221 -232.533 6.5 0 0 0</pose>
+      <pose frame=''>-611.221 -232.533 3 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_11'>
@@ -234,12 +234,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>8</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-756.512 -346.437 6.5 0 0 0</pose>
+      <pose frame=''>-544.794 -296.507 4 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_12'>
@@ -250,12 +250,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>7</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-544.794 -296.507 6.5 0 0 0</pose>
+      <pose frame=''>-413.182 -301.398 3.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_13'>
@@ -266,12 +266,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>19</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-413.182 -301.398 6.5 0 0 0</pose>
+      <pose frame=''>-244.429 -290.325 9.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_14'>
@@ -282,12 +282,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>25</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-244.429 -290.325 6.5 0 0 0</pose>
+      <pose frame=''>-32.435 -276.509 12.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_15'>
@@ -298,12 +298,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>30</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-32.435 -276.509 6.5 0 0 0</pose>
+      <pose frame=''>119.719 -383.291 15 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_16'>
@@ -314,12 +314,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>44</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>119.719 -383.291 6.5 0 0 0</pose>
+      <pose frame=''>276.420 -493.459 22 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_17'>
@@ -330,12 +330,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>6</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>276.420 -493.459 6.5 0 0 0</pose>
+      <pose frame=''>-391.957 -202.912 3 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_18'>
@@ -346,12 +346,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>8</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-391.957 -202.912 6.5 0 0 0</pose>
+      <pose frame=''>-301.302 -167.188 4 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_19'>
@@ -362,12 +362,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>9</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-301.302 -167.188 6.5 0 0 0</pose>
+      <pose frame=''>-208.036 -131.632 4.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_20'>
@@ -378,12 +378,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>10</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-208.036 -131.632 6.5 0 0 0</pose>
+      <pose frame=''>-118.176 -97.355 5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_21'>
@@ -394,12 +394,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>12</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-118.176 -97.355 6.5 0 0 0</pose>
+      <pose frame=''>-28.178 -63.028 6 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_22'>
@@ -410,12 +410,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>14</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-28.178 -63.028 6.5 0 0 0</pose>
+      <pose frame=''>65.174 -27.481 7 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_23'>
@@ -426,12 +426,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>14</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>65.174 -27.481 6.5 0 0 0</pose>
+      <pose frame=''>62.631 -21.742 7 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_24'>
@@ -442,12 +442,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>15</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>62.631 -21.742 6.5 0 0 0</pose>
+      <pose frame=''>163.171 6.176 7.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_25'>
@@ -458,12 +458,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>16</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>163.171 6.176 6.5 0 0 0</pose>
+      <pose frame=''>252.476 37.164 8 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_26'>
@@ -474,12 +474,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>18</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>252.476 37.164 6.5 0 0 0</pose>
+      <pose frame=''>351.502 70.480 9 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_27'>
@@ -490,12 +490,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>19</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>351.502 70.480 6.5 0 0 0</pose>
+      <pose frame=''>447.289 103.004 9.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_28'>
@@ -506,12 +506,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>21</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>447.289 103.004 6.5 0 0 0</pose>
+      <pose frame=''>543.828 136.838 10.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_29'>
@@ -522,12 +522,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>23</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>543.828 136.838 6.5 0 0 0</pose>
+      <pose frame=''>641.898 170.080 11.5 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_30'>
@@ -538,12 +538,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>32</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>641.898 170.080 6.5 0 0 0</pose>
+      <pose frame=''>719.770 208.398 16 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_31'>
@@ -554,12 +554,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>38</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>719.770 208.398 6.5 0 0 0</pose>
+      <pose frame=''>769.668 108.103 19 0 0 0</pose>
     </model>
 
     <model name='Pylon_low_res_32'>
@@ -570,28 +570,12 @@
           <geometry>
             <cylinder>
               <radius>0.75</radius>
-              <length>13</length>
+              <length>25</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>769.668 108.103 6.5 0 0 0</pose>
-    </model>
-
-    <model name='Pylon_low_res_33'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.75</radius>
-              <length>13</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>894.348 293.824 6.5 0 0 0</pose>
+      <pose frame=''>894.348 293.824 12.5 0 0 0</pose>
     </model>
 
 
@@ -604,12 +588,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>173.870</length>
+              <length>174.904</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-419.645 362.720 12 1.571 0 3.020</pose>
+      <pose frame=''>-419.644 362.7195 38.5 1.679 0 -0.121</pose>
     </model>
 
     <model name='Wire_low_res_2'>
@@ -620,12 +604,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>173.870</length>
+              <length>170.132</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-419.645 362.720 12 1.571 0 -0.121</pose>
+      <pose frame=''>-440.354 192.3495 21 1.664 0 -0.120</pose>
     </model>
 
     <model name='Wire_low_res_3'>
@@ -636,12 +620,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>169.378</length>
+              <length>151.343</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-440.355 192.350 12 1.571 0 3.021</pose>
+      <pose frame=''>-460.309 33.2965 10 1.610 0 -0.129</pose>
     </model>
 
     <model name='Wire_low_res_4'>
@@ -652,12 +636,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>169.378</length>
+              <length>175.322</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-440.355 192.350 12 1.571 0 -0.121</pose>
+      <pose frame=''>-480.143 -128.758 8 1.559 0 -0.115</pose>
     </model>
 
     <model name='Wire_low_res_5'>
@@ -668,12 +652,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>151.224</length>
+              <length>25.191</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-460.309 33.297 12 1.571 0 3.012</pose>
+      <pose frame=''>-491.541 -228.349 9.5 1.531 0 -0.106</pose>
     </model>
 
     <model name='Wire_low_res_6'>
@@ -684,12 +668,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>151.224</length>
+              <length>113.134</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-460.309 33.297 12 1.571 0 -0.130</pose>
+      <pose frame=''>-545.685 -260.9795 7.5 1.615 0 -1.206</pose>
     </model>
 
     <model name='Wire_low_res_7'>
@@ -700,12 +684,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>175.312</length>
+              <length>51.592</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-480.143 -128.758 12 1.571 0 3.027</pose>
+      <pose frame=''>-615.752 -300.2695 5 1.570 0 -0.732</pose>
     </model>
 
     <model name='Wire_low_res_8'>
@@ -716,12 +700,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>175.312</length>
+              <length>36.820</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-480.143 -128.758 12 1.571 0 -0.115</pose>
+      <pose frame=''>-630.286 -301.236 5 1.570 0 2.993</pose>
     </model>
 
     <model name='Wire_low_res_9'>
@@ -732,12 +716,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>25.172</length>
+              <length>53.073</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-491.542 -228.349 12 1.571 0 3.035</pose>
+      <pose frame=''>-619.392 -257.7805 5 1.570 0 2.828</pose>
     </model>
 
     <model name='Wire_low_res_10'>
@@ -748,12 +732,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>25.172</length>
+              <length>91.170</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-491.542 -228.349 12 1.571 0 -0.106</pose>
+      <pose frame=''>-588.901 -307.9755 6 1.548 0 1.825</pose>
     </model>
 
     <model name='Wire_low_res_11'>
@@ -764,12 +748,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>113.024</length>
+              <length>131.706</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-545.686 -260.980 12 1.571 0 1.935</pose>
+      <pose frame=''>-478.988 -298.9525 6.5 1.578 0 1.533</pose>
     </model>
 
     <model name='Wire_low_res_12'>
@@ -780,12 +764,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>107.818</length>
+              <length>169.541</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-442.416 -221.888 12 1.571 0 -1.211</pose>
+      <pose frame=''>-328.805 -295.8615 12 1.499 0 1.636</pose>
     </model>
 
     <model name='Wire_low_res_13'>
@@ -796,12 +780,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>113.024</length>
+              <length>212.528</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-545.686 -260.980 12 1.571 0 -1.207</pose>
+      <pose frame=''>-138.432 -283.417 21 1.542 0 1.635</pose>
     </model>
 
     <model name='Wire_low_res_14'>
@@ -812,12 +796,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>51.593</length>
+              <length>185.952</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-615.753 -300.270 12 1.571 0 2.409</pose>
+      <pose frame=''>43.642 -329.9 26.5 1.543 0 0.958</pose>
     </model>
 
     <model name='Wire_low_res_15'>
@@ -828,12 +812,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>51.593</length>
+              <length>192.062</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-615.753 -300.270 12 1.571 0 -0.733</pose>
+      <pose frame=''>198.069 -438.375 36 1.497 0 0.958</pose>
     </model>
 
     <model name='Wire_low_res_16'>
@@ -844,12 +828,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>36.821</length>
+              <length>107.934</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-630.287 -301.236 12 1.571 0 -0.148</pose>
+      <pose frame=''>-442.416 -221.888 7.5 1.617 0 1.930</pose>
     </model>
 
     <model name='Wire_low_res_17'>
@@ -860,12 +844,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>126.418</length>
+              <length>97.460</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-694.761 -332.941 12 1.571 0 1.786</pose>
+      <pose frame=''>-346.629 -185.05 6 1.550 0 1.946</pose>
     </model>
 
     <model name='Wire_low_res_18'>
@@ -876,12 +860,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>91.148</length>
+              <length>99.818</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-588.902 -307.976 12 1.571 0 -1.316</pose>
+      <pose frame=''>-254.669 -149.41 7.5 1.560 0 1.935</pose>
     </model>
 
     <model name='Wire_low_res_19'>
@@ -892,12 +876,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>36.821</length>
+              <length>96.180</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-630.287 -301.236 12 1.571 0 2.993</pose>
+      <pose frame=''>-163.106 -114.4935 8.5 1.560 0 1.935</pose>
     </model>
 
     <model name='Wire_low_res_20'>
@@ -908,12 +892,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>53.074</length>
+              <length>96.343</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-619.393 -257.781 12 1.571 0 -0.313</pose>
+      <pose frame=''>-73.177 -80.1915 10 1.550 0 1.935</pose>
     </model>
 
     <model name='Wire_low_res_21'>
@@ -924,12 +908,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>53.074</length>
+              <length>99.910</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-619.393 -257.781 12 1.571 0 2.829</pose>
+      <pose frame=''>18.498 -45.2545 12 1.550 0 1.934</pose>
     </model>
 
     <model name='Wire_low_res_22'>
@@ -940,12 +924,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>126.418</length>
+              <length>6.277</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-694.761 -332.941 12 1.571 0 -1.356</pose>
+      <pose frame=''>63.902 -24.6115 13 1.570 0 3.558</pose>
     </model>
 
     <model name='Wire_low_res_23'>
@@ -956,12 +940,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>91.148</length>
+              <length>103.620</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-588.902 -307.976 12 1.571 0 1.825</pose>
+      <pose frame=''>114.172 -10.6525 13.5 1.561 0 1.901</pose>
     </model>
 
     <model name='Wire_low_res_24'>
@@ -972,12 +956,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>131.703</length>
+              <length>94.533</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-478.988 -298.953 12 1.571 0 4.675</pose>
+      <pose frame=''>207.823 21.67 14.5 1.560 0 1.904</pose>
     </model>
 
     <model name='Wire_low_res_25'>
@@ -988,12 +972,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>131.703</length>
+              <length>104.499</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-478.988 -298.953 12 1.571 0 1.534</pose>
+      <pose frame=''>301.989 53.822 16 1.551 0 1.895</pose>
     </model>
 
     <model name='Wire_low_res_26'>
@@ -1004,12 +988,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>169.116</length>
+              <length>101.163</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-328.806 -295.862 12 1.571 0 -1.505</pose>
+      <pose frame=''>399.395 86.742 17.5 1.560 0 1.898</pose>
     </model>
 
     <model name='Wire_low_res_27'>
@@ -1020,12 +1004,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>169.116</length>
+              <length>102.315</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-328.806 -295.862 12 1.571 0 1.636</pose>
+      <pose frame=''>495.558 119.921 19 1.551 0 1.907</pose>
     </model>
 
     <model name='Wire_low_res_28'>
@@ -1036,12 +1020,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>212.444</length>
+              <length>103.570</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-138.432 -283.417 12 1.571 0 -1.506</pose>
+      <pose frame=''>592.863 153.459 21 1.551 0 1.897</pose>
     </model>
 
     <model name='Wire_low_res_29'>
@@ -1052,12 +1036,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>212.444</length>
+              <length>87.254</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-138.432 -283.417 12 1.571 0 1.636</pose>
+      <pose frame=''>680.834 189.239 26.5 1.467 0 2.028</pose>
     </model>
 
     <model name='Wire_low_res_30'>
@@ -1068,12 +1052,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>185.885</length>
+              <length>112.182</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>43.642 -329.900 12 1.571 0 4.100</pose>
+      <pose frame=''>744.719 158.2505 34 1.517 0 0.461</pose>
     </model>
 
     <model name='Wire_low_res_31'>
@@ -1084,540 +1068,12 @@
           <geometry>
             <cylinder>
               <radius>0.15</radius>
-              <length>185.885</length>
+              <length>194.484</length>
             </cylinder>
           </geometry>
         </visual>
       </link>
-      <pose frame=''>43.642 -329.900 12 1.571 0 0.959</pose>
-    </model>
-
-    <model name='Wire_low_res_32'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>191.552</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>198.070 -438.375 12 1.571 0 4.100</pose>
-    </model>
-
-    <model name='Wire_low_res_33'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>191.552</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>198.070 -438.375 12 1.571 0 0.958</pose>
-    </model>
-
-    <model name='Wire_low_res_34'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>107.818</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-442.416 -221.888 12 1.571 0 1.931</pose>
-    </model>
-
-    <model name='Wire_low_res_35'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>97.440</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-346.630 -185.050 12 1.571 0 -1.195</pose>
-    </model>
-
-    <model name='Wire_low_res_36'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>97.440</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-346.630 -185.050 12 1.571 0 1.946</pose>
-    </model>
-
-    <model name='Wire_low_res_37'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>99.814</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-254.669 -149.410 12 1.571 0 -1.207</pose>
-    </model>
-
-    <model name='Wire_low_res_38'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>99.814</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-254.669 -149.410 12 1.571 0 1.935</pose>
-    </model>
-
-    <model name='Wire_low_res_39'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>96.176</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-163.106 -114.494 12 1.571 0 -1.206</pose>
-    </model>
-
-    <model name='Wire_low_res_40'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>96.176</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-163.106 -114.494 12 1.571 0 1.935</pose>
-    </model>
-
-    <model name='Wire_low_res_41'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>96.322</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-73.177 -80.192 12 1.571 0 -1.206</pose>
-    </model>
-
-    <model name='Wire_low_res_42'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>96.322</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>-73.177 -80.192 12 1.571 0 1.935</pose>
-    </model>
-
-    <model name='Wire_low_res_43'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>99.891</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>18.498 -45.255 12 1.571 0 -1.207</pose>
-    </model>
-
-    <model name='Wire_low_res_44'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>99.891</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>18.498 -45.255 12 1.571 0 1.935</pose>
-    </model>
-
-    <model name='Wire_low_res_45'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>6.277</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>63.903 -24.612 12 1.571 0 0.417</pose>
-    </model>
-
-    <model name='Wire_low_res_46'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>103.616</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>114.173 -10.653 12 1.571 0 -1.240</pose>
-    </model>
-
-    <model name='Wire_low_res_47'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>6.277</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>63.903 -24.612 12 1.571 0 3.559</pose>
-    </model>
-
-    <model name='Wire_low_res_48'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>103.616</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>114.173 -10.653 12 1.571 0 1.902</pose>
-    </model>
-
-    <model name='Wire_low_res_49'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>94.529</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>207.824 21.670 12 1.571 0 -1.237</pose>
-    </model>
-
-    <model name='Wire_low_res_50'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>94.529</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>207.824 21.670 12 1.571 0 1.905</pose>
-    </model>
-
-    <model name='Wire_low_res_51'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>104.480</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>301.989 53.822 12 1.571 0 -1.246</pose>
-    </model>
-
-    <model name='Wire_low_res_52'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>104.480</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>301.989 53.822 12 1.571 0 1.895</pose>
-    </model>
-
-    <model name='Wire_low_res_53'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>101.158</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>399.396 86.742 12 1.571 0 -1.243</pose>
-    </model>
-
-    <model name='Wire_low_res_54'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>101.158</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>399.396 86.742 12 1.571 0 1.898</pose>
-    </model>
-
-    <model name='Wire_low_res_55'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>102.296</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>495.559 119.921 12 1.571 0 -1.234</pose>
-    </model>
-
-    <model name='Wire_low_res_56'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>102.296</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>495.559 119.921 12 1.571 0 1.908</pose>
-    </model>
-
-    <model name='Wire_low_res_57'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>103.551</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>592.863 153.459 12 1.571 0 -1.244</pose>
-    </model>
-
-    <model name='Wire_low_res_58'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>103.551</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>592.863 153.459 12 1.571 0 1.898</pose>
-    </model>
-
-    <model name='Wire_low_res_59'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>86.789</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>680.834 189.239 12 1.571 0 -1.114</pose>
-    </model>
-
-    <model name='Wire_low_res_60'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>86.789</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>680.834 189.239 12 1.571 0 2.028</pose>
-    </model>
-
-    <model name='Wire_low_res_61'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>112.022</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>744.719 158.251 12 1.571 0 3.603</pose>
-    </model>
-
-    <model name='Wire_low_res_62'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>194.358</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>807.059 251.111 12 1.571 0 -1.116</pose>
-    </model>
-
-    <model name='Wire_low_res_63'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>112.022</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>744.719 158.251 12 1.571 0 0.462</pose>
-    </model>
-
-    <model name='Wire_low_res_64'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <cast_shadows>false</cast_shadows>
-          <geometry>
-            <cylinder>
-              <radius>0.15</radius>
-              <length>194.358</length>
-            </cylinder>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>807.059 251.111 12 1.571 0 2.026</pose>
+      <pose frame=''>807.059 251.111 27.5 1.606 0 2.025</pose>
     </model>
 
 
