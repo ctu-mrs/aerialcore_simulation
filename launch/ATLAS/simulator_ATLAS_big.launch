@@ -3,7 +3,7 @@
     <!-- Launch Gazebo simulation -->
 	<rosparam param="/use_sim_time">true</rosparam>
     <node pkg="aerialcore_simulation" type="launch_gzworld.py" name="gazebo_world" output="screen"
-    args="-physics=ode -world=$(find aerialcore_simulation)/worlds/ATLAS_power_lines.world
+    args="-physics=ode -world=$(find aerialcore_simulation)/worlds/ATLAS_power_lines_big.world
 		  -add_model_path=$(find aerialcore_simulation)/models
 		  -description_package=robots_description">
 		<rosparam param="sim_origin">[38.138728, -3.173825, 0]</rosparam>  <!-- [lat,lon,alt] -->

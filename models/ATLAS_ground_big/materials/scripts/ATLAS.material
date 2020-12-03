@@ -1,4 +1,4 @@
-material ATLAS_ground_mini
+material ATLAS_ground_big
 {
 	technique
 	{
@@ -10,7 +10,7 @@ material ATLAS_ground_mini
 
 			texture_unit
 			{
-				texture ATLAS_mini_1385.44_x_847.75_meters.jpg
+				texture ATLAS_5647.18_x_2838.46_meters.jpg
 				filtering anistropic
 				max_anisotropy 16
 				scale 1 1

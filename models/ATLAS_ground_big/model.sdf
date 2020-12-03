@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="ATLAS_ground_mini">
+  <model name="ATLAS_ground_big">
     <static>true</static>
     <link name="floor">
       <collision name="collision">
         <geometry>
           <box>
-            <size>855 1410 .1</size>
+            <size>2838.46 5647.18 .1</size>
           </box>
         </geometry>
       </collision>
@@ -14,14 +14,14 @@
         <cast_shadows>false</cast_shadows>
         <geometry>
           <box>
-            <size>855 1407 .1</size>
+            <size>2838.46 5647.18 .1</size>
           </box>
         </geometry>
         <material>
           <script>
-            <uri>model://ATLAS_ground_mini/materials/scripts</uri>
-            <uri>model://ATLAS_ground_mini/materials/textures</uri>
-            <name>ATLAS_ground_mini</name>
+            <uri>model://ATLAS_ground_big/materials/scripts</uri>
+            <uri>model://ATLAS_ground_big/materials/textures</uri>
+            <name>ATLAS_ground_big</name>
           </script>
         </material>
       </visual>

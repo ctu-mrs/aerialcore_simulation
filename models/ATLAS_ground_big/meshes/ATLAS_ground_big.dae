@@ -103,7 +103,7 @@
   </library_lights>
   <library_images>
     <image id="ATLAS_id_png" name="ATLAS_name_png">
-      <init_from>../materials/textures/ATLAS_mini_1385.44_x_847.75_meters.jpg</init_from>
+      <init_from>../materials/textures/ATLAS_5647.18_x_2838.46_meters.jpg</init_from>
     </image>
   </library_images>
   <library_effects>
@@ -205,7 +205,7 @@
         <instance_light url="#Lamp-light"/>
       </node>
       <node id="Plane" name="Plane" type="NODE">
-        <matrix sid="transform">1385.44 0 0 0 0 847.75 0 0 0 0 1 0 0 0 0 1</matrix>
+        <matrix sid="transform">5647.18 0 0 0 0 2838.46 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Plane-mesh" name="Plane">
           <bind_material>
             <technique_common>
