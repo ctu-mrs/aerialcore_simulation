@@ -52,6 +52,28 @@
 
 namespace gazebo
 {
+    /// \brief Struct containing tuple of indexes
+    struct Coords
+    {
+    public:
+        const int x;
+        const int y;
+        Coords(int x, int y) : x(x), y(y) {}
+
+        bool operator <(const Coords& pt) const {
+            return (x < pt.x) || ((!(pt.x < x)) && (y < pt.y));
+        }
+    };
+
+    /// \brief Class to store UAV position history and process tile logic
+    class UavData
+    {
+      public:
+        bool exists = false;
+        int x_index = 0;
+        int y_index = 0;
+        std::string uav_name;
+    };
 
   /// \brief Class to provide helper functions for Web Mercator projection
   class MercatorProjection
@@ -163,11 +185,9 @@ namespace gazebo
 
     public: int spawn_distance = 1;
 
-    public: std::string uav_name = "uav1";
+    public: std::vector<UavData> uavs;
 
-    public: int previousXIndex = 0;
-
-    public: int previousYIndex = 0;
+    public: std::set<Coords> occupied_tiles;
 
     /// \brief Filenames of map tile images
     public: std::vector<std::string> mapTileFilenames;
@@ -342,9 +362,32 @@ void DynamicMapPlugin::Load(physics::WorldPtr _world, sdf::ElementPtr _sdf)
   if (_sdf->HasElement("spawn_distance"))
     this->dataPtr->spawn_distance = _sdf->Get<unsigned int>("spawn_distance");
   
-  if (_sdf->HasElement("uav_name"))
-    this->dataPtr->uav_name = _sdf->Get<unsigned int>("uav_name");
-  
+  if (_sdf->HasElement("uav_names"))
+  {
+      std::string uav_names = _sdf->Get<std::string>("uav_names");
+      std::string name = "";
+      for (auto x : uav_names)
+      {
+          if (x == ' ' or x == ',' or x == ';')
+          {
+              UavData data;
+              data.uav_name = name;
+              this->dataPtr->uavs.push_back(data);
+              name = "";
+          }
+          else {
+              name = name + x;
+          }
+      }
+      UavData data;
+      data.uav_name = name;
+      this->dataPtr->uavs.push_back(data);
+  } else {
+      UavData data;
+      data.uav_name = "uav1";
+      this->dataPtr->uavs.push_back(data);
+  }
+
   if (_sdf->HasElement("map_type"))
     this->dataPtr->mapType= _sdf->Get<std::string>("map_type");
 
@@ -390,13 +433,15 @@ void DynamicMapPlugin::Init()
   this->dataPtr->subscriberPub = 
       this->dataPtr->node->Subscribe("~/pose/info", &DynamicMapPlugin::CallbackGazeboUavPose, this, 1);
 
-  for(int i = -this->dataPtr->spawn_distance; i<= this->dataPtr->spawn_distance; i++)
-  {
-    for(int j = -this->dataPtr->spawn_distance; j<= this->dataPtr->spawn_distance; j++)
-    {
-      this->dataPtr->SpawnTile(i,j); 
+    for(auto uav_data : this->dataPtr->uavs) {
+        for (int i = -this->dataPtr->spawn_distance; i <= this->dataPtr->spawn_distance; i++) {
+            for (int j = -this->dataPtr->spawn_distance; j <= this->dataPtr->spawn_distance; j++) {
+                this->dataPtr->occupied_tiles.insert(Coords(uav_data.x_index + i, uav_data.y_index + j));
+            }
+        }
     }
-  }
+    for (auto coords : this->dataPtr->occupied_tiles)
+        this->dataPtr->SpawnTile(coords.x, coords.y);
 
 }
 
@@ -743,44 +788,62 @@ void DynamicMapPluginPrivate::DespawnTile(const int xIndex, const int yIndex)
 }
 
 void DynamicMapPlugin::CallbackGazeboUavPose(const GazeboPosesStampedConstPtr& msg)
-{       
-      bool exists = false;
-      ignition::math::Vector3d uav_position_;
-      for (int i = 0; i < msg->pose_size(); i++) {
-        if (msg->pose(i).name() == this->dataPtr->uav_name) {
-  /* std::cout << "found uav"<< std::endl; */
-    exists = true;
-          uav_position_.X() = msg->pose(i).position().x();
-          uav_position_.Y() = msg->pose(i).position().y();
-          uav_position_.Z() = msg->pose(i).position().z(); 
-          break;
+{
+    // occupancy grid of UAVs and their comparisons
+    std::set<Coords> new_occupied_tiles;
+    std::set<Coords> spawn_tiles;
+    std::set<Coords> despawn_tiles;
+    bool index_changed = false;
+
+    for(auto& uav_data : this->dataPtr->uavs) {
+        ignition::math::Vector3d uav_position_;
+        bool uav_pose_found = false;
+        for (int i = 0; i < msg->pose_size(); i++) {
+            if (msg->pose(i).name() == uav_data.uav_name) {
+                uav_position_.X() = msg->pose(i).position().x();
+                uav_position_.Y() = msg->pose(i).position().y();
+                uav_position_.Z() = msg->pose(i).position().z();
+                uav_pose_found = true;
+                uav_data.exists = true;
+                break;
+            }
         }
-      }
+        if(!uav_pose_found) {
+            uav_data.exists = false;
+            return;
+        }
 
-    if (!exists)
-      return;
+        int xIndex = (int) (uav_position_.X() / this->dataPtr->worldSize.X());
+        int yIndex = (int) (uav_position_.Y() / this->dataPtr->worldSize.Y());
 
-
-    int xIndex = (int)uav_position_.X() / this->dataPtr->worldSize.X();
-    int yIndex = (int)uav_position_.Y() / this->dataPtr->worldSize.Y();
-
-
-    if(xIndex != this->dataPtr->previousXIndex) {
-    int xStep = (xIndex-this->dataPtr->previousXIndex);
-    for (int i = -this->dataPtr->spawn_distance; i <= this->dataPtr->spawn_distance; i++) {
-      this->dataPtr->SpawnTile(xIndex+xStep*this->dataPtr->spawn_distance, i+yIndex);
-      this->dataPtr->DespawnTile(xIndex-xStep*(this->dataPtr->spawn_distance+1), i+yIndex);
-      this->dataPtr->previousXIndex = xIndex;
-      }
+        if (xIndex != uav_data.x_index or yIndex != uav_data.y_index) {
+            index_changed = true;
+            uav_data.x_index = xIndex;
+            uav_data.y_index = yIndex;
+        }
     }
-    
-    if (yIndex != this->dataPtr->previousYIndex) {
-      int yStep = (yIndex-this->dataPtr->previousYIndex);
-      for (int i = -this->dataPtr->spawn_distance; i <= this->dataPtr->spawn_distance; i++) {
-        this->dataPtr->SpawnTile(i+xIndex, yIndex+yStep*this->dataPtr->spawn_distance);
-        this->dataPtr->DespawnTile(i+xIndex, yIndex-yStep*(this->dataPtr->spawn_distance+1));
-        this->dataPtr->previousYIndex = yIndex;
-      }  
-    }
+    // do the comparisons of occupancy grids only if needed
+    if (index_changed) {
+        for(auto uav_data : this->dataPtr->uavs) {
+            if (uav_data.exists) {
+                for (int i = -this->dataPtr->spawn_distance; i <= this->dataPtr->spawn_distance; i++) {
+                    for (int j = -this->dataPtr->spawn_distance; j <= this->dataPtr->spawn_distance; j++) {
+                        new_occupied_tiles.insert(Coords(uav_data.x_index + i, uav_data.y_index + j));
+                    }
+                }
+            }
+        }
+        std::set_difference(new_occupied_tiles.begin(), new_occupied_tiles.end(), this->dataPtr->occupied_tiles.begin(), this->dataPtr->occupied_tiles.end(), std::inserter(spawn_tiles,spawn_tiles.begin()));
+        std::set_difference( this->dataPtr->occupied_tiles.begin(), this->dataPtr->occupied_tiles.end(),new_occupied_tiles.begin(), new_occupied_tiles.end(), std::inserter(despawn_tiles, despawn_tiles.begin()));
 
+        for (auto coords : spawn_tiles) {
+            this->dataPtr->SpawnTile(coords.x, coords.y);
+//            gzmsg << "Spawning at x:"<<coords.x <<" y:" << coords.y << std::endl;
+        }
+        for (auto coords : despawn_tiles) {
+            this->dataPtr->DespawnTile(coords.x, coords.y);
+//            gzmsg << "Despawning at x:"<<coords.x <<" y:" << coords.y << std::endl;
+        }
+        this->dataPtr->occupied_tiles = new_occupied_tiles;
+    }
 }

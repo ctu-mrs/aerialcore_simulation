@@ -32,8 +32,8 @@ namespace gazebo
       physics::WorldPtr _world = NULL;
       ignition::math::Vector3d uav_position_;
       // Gazebo subscribers
-      std::string file_path = "/home/mrs/workspace/src/aerialcore_simulation/gps/v223-v224_gps.txt";      
-      std::string model_name = "somepowerline";
+      std::string file_path;      
+      std::string model_name;
       std::string spawn_name;
       transport::NodePtr       gz_node_;
       transport::SubscriberPtr gz_uav_sub_;
@@ -105,7 +105,7 @@ namespace gazebo
     std::ifstream csv_file(file_path);
 
     // Make sure the file is open
-    if(!csv_file.is_open()) throw std::runtime_error("Could not open file");
+    if(!csv_file.is_open()) throw std::runtime_error("Could not open file: "+file_path);
 
     if(!csv_file.good()) throw std::runtime_error("I/O error encountered");
     

@@ -62,7 +62,7 @@ namespace gazebo
   ///              fetch enough tiles to create a model that is larger than
   ///              the specified size.
   /// <api_key>    Google API key
-  /// <uav_name>   Name of UAV Pose
+  /// <uav_names>   Name of UAV Poses separated by space, comma or semicolon character
   ///
   /// optional parameters:
   /// <model_name> Name of map model
