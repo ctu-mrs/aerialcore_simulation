@@ -2,20 +2,23 @@
 <?xml-model href="http://sdformat.org/schemas/root.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <sdf version="1.5">
   <world name="default">
-    <plugin name="map" filename="libStaticMapPlugin.so">
+    <!-- <plugin name="mrs_gazebo_link_attacher_plugin" filename="libMRSGazeboLinkAttacherPlugin.so"/> -->
+    <plugin name="mrs_gazebo_static_transform_republisher_plugin" filename="libMRSGazeboStaticTransformRepublisher.so"/>
+    <plugin name="map" filename="libDynamicMapPlugin.so">
       <center>50.345749 13.325244</center>
-      <world_size>500</world_size>
       <map_type>satellite</map_type>
       <api_key>AIzaSyCXlEq6cDC_6zkJ2NrS3YFFMQ4zfZ2vKP8</api_key>
       <use_cache>true</use_cache>
       <zoom>20</zoom>
+      <spawn_distance>5</spawn_distance>
+      <uav_names>uav1</uav_names>
     </plugin>
 
     <!-- coordinate system {-->
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
-      <latitude_deg>37.411802</latitude_deg>
-      <longitude_deg>-121.995739</longitude_deg>
+      <latitude_deg>50.345749</latitude_deg>
+      <longitude_deg>13.325244</longitude_deg>
       <elevation>0.0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
@@ -98,7 +101,21 @@
     <!--}-->
 
   
+  <!-- user camera {-->
+    <gui>
+      <camera name="camera">
+        <pose>-60 -100 30 0 0.4 0.89</pose>
+      </camera>
+    </gui>
+    <!--}-->
 
+    <!-- GUI frame synchronization {-->
+    <plugin name="mrs_gazebo_rviz_cam_synchronizer" filename="libMRSGazeboRvizCameraSynchronizer.so" >
+      <target_frame_id>gazebo_user_camera</target_frame_id>
+      <world_origin_frame_id>uav1/gps_origin</world_origin_frame_id>
+      <frame_to_follow>uav1::base_link</frame_to_follow>
+    </plugin>
+    <!--}-->
 
   </world>
 </sdf>

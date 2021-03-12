@@ -1,0 +1,25 @@
+version: "0.0.5.1"
+
+vertical_tracker:
+  vertical_speed: 0.6
+
+max_tilt: 0.70 # [rad]
+
+heading_tracker:
+  heading_rate: 2.0
+
+# channel numbers, indices in array
+channels:
+
+  pitch: 1 # []
+  roll: 2 # []
+  heading: 0 # []
+  thrust: 3 # []
+
+# multipliers for scaling and reversing the channels
+channel_multipliers:
+
+  pitch: 1.0 # []
+  roll: -1.0 # []
+  heading: 1.0 # []
+  thrust: 1.0 # []

@@ -11,6 +11,7 @@
       <use_cache>true</use_cache>
       <zoom>20</zoom>
       <spawn_distance>5</spawn_distance>
+      <uav_names>uav1</uav_names>
     </plugin>
 
     <plugin name="pylons1" filename="libPowerlineGazeboPlugin.so">

@@ -10,7 +10,7 @@ windows:
   - gazebo:
       layout: tiled
       panes:
-        - waitForRos; roslaunch mrs_simulation simulation.launch world_file:='$(find aerialcore_simulation)/worlds/aerial_core_nechranice_justdynamicmap.world' gui:=true
+        - waitForRos; roslaunch mrs_simulation simulation.launch world_file:='$(find aerialcore_simulation)/worlds/ATLAS_power_lines_dynamic.world' gui:=true
         - 'waitForOdometry; gz camera -c gzclient_camera -f uav1; history -s gz camera -c gzclient_camera -f uav1'
   - status:
       layout: tiled
@@ -19,7 +19,7 @@ windows:
   - spawn:
       layout: tiled
       panes:
-        - waitForSimulation; spawn_uav 1 --$UAV_TYPE --run --delete --enable-rangefinder
+        - waitForSimulation; rosservice call /mrs_drone_spawner/spawn  "1 $UAV_TYPE --enable-rangefinder"
   - control:
       layout: tiled
       panes:
