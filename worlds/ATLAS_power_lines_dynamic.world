@@ -27,11 +27,11 @@
     <plugin name="map" filename="libDynamicMapPlugin.so">
       <center>38.138728 -3.173825</center>
       <map_type>satellite</map_type>
-      <api_key>AIzaSyBVrm_Xu7iE0tPHn3vq70fXDoNSRZ88F0I</api_key>
+      <api_key>CAzaSyCroSORuuScyI10-lD9StF4L17VqMEu5AI</api_key>  <!-- API key for Google Maps services. For safety reasons this one won't work in other machines, you will need to configure a project in Google Cloud and add billing account or card. -->
       <use_cache>true</use_cache>
       <zoom>20</zoom>
       <spawn_distance>5</spawn_distance>
-      <uav_names>uav1</uav_names>
+      <uav_names>typhoon_h480_1 typhoon_h480_2</uav_names>        <!-- Here goes the name of the models as they appear in Gazebo -->
     </plugin>
 
     <!-- A global light source -->
