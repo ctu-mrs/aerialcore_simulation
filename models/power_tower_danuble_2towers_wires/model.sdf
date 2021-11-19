@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="power_tower_danube_2towers_wires">
+  <model name="power_tower_danuble_2towers_wires">
     <static>true</static>
     <link name="link">
       <pose>0 0 0 0 0 0</pose>
