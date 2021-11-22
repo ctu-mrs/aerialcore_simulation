@@ -36,13 +36,16 @@
       <magnetic_field>6.0e-06 2.3e-05 -4.2e-05</magnetic_field>
     </physics>
     <!--}-->
-
+    
     <!-- turn off shadows {-->
     <scene>
       <shadows>false</shadows>
+      <sky>
+        <clouds/>
+      </sky>
     </scene>
     <!--}-->
-
+    
     <!-- sun {-->
     <light type="directional" name="sun">
       <cast_shadows>true</cast_shadows>
@@ -80,6 +83,7 @@
     </model>
     <!--}-->
 
+    <!--}-->
     <!-- ground plane {-->
     <model name="ground_plane">
       <static>true</static>
@@ -127,6 +131,21 @@
             </mesh>
           </geometry>
         </collision>
+        <visual name="grass">
+          <pose>0 0 0 0 0 0</pose>
+          <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>file://grass_plane/meshes/grass_plane.dae</uri>
+            </mesh>
+          </geometry>
+          <!-- <material> -->
+          <!--   <script> -->
+          <!--     <uri>file://media/materials/scripts/Gazebo.material</uri> -->
+          <!--     <name>Gazebo/Grass</name> -->
+          <!--   </script> -->
+          <!-- </material> -->
+        </visual>
       </link>
     </model>
     <!--}-->
