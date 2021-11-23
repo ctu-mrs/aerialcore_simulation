@@ -2,7 +2,6 @@
 <?xml-model href="http://sdformat.org/schemas/root.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <sdf version="1.5">
   <world name="default">
-    <plugin name="mrs_gazebo_static_transform_republisher_plugin" filename="libMRSGazeboStaticTransformRepublisher.so"/>
     <!-- coordinate system {-->
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
@@ -36,7 +35,7 @@
       <magnetic_field>6.0e-06 2.3e-05 -4.2e-05</magnetic_field>
     </physics>
     <!--}-->
-    
+
     <!-- turn off shadows {-->
     <scene>
       <shadows>false</shadows>
@@ -45,7 +44,7 @@
       </sky>
     </scene>
     <!--}-->
-    
+
     <!-- sun {-->
     <light type="directional" name="sun">
       <cast_shadows>true</cast_shadows>
@@ -60,27 +59,6 @@
       </attenuation>
       <direction>0 0 -1</direction>
     </light>
-    <!--}-->
-
-    <!-- THE VOID (for spawning objects out of camera view) {-->
-    <model name='the_void'>
-      <static>1</static>
-      <link name='link'>
-        <pose frame=''>0 0 0.1 0 -0 0</pose>
-        <visual name='the_void'>
-          <pose frame=''>0 0 2 0 -0 0</pose>
-          <geometry>
-            <sphere>
-              <radius>0.25</radius>
-            </sphere>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-1000 -1000 0 0 0 0</pose>
-    </model>
     <!--}-->
 
     <!--}-->
@@ -111,10 +89,11 @@
 
     <!-- power towers Danuble and wires {-->
     <model name='power_tower_island'>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>-25 -25 0 0 0 0.2618</pose>
       <static>true</static>
       <link name='link'>
         <visual name='visual'>
+        <!-- power towers and cables {-->
           <cast_shadows>false</cast_shadows>
           <geometry>
             <mesh>
@@ -139,16 +118,118 @@
               <uri>file://grass_plane/meshes/grass_plane.dae</uri>
             </mesh>
           </geometry>
-          <!-- <material> -->
-          <!--   <script> -->
-          <!--     <uri>file://media/materials/scripts/Gazebo.material</uri> -->
-          <!--     <name>Gazebo/Grass</name> -->
-          <!--   </script> -->
-          <!-- </material> -->
         </visual>
       </link>
     </model>
     <!--}-->
+
+  <!-- refilling stations {-->
+  <model name='refilling_station_1'>
+    <pose> -17.8410 -32.3992 0 0 0 0.2618</pose>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+    <cast_shadows>false</cast_shadows>
+	  <!-- refilling station {-->
+  	<geometry>
+    	<mesh>
+      	<uri>file://refilling_station/meshes/refilling_station.dae</uri>
+      	<scale>1 1 1</scale>
+    	</mesh>
+  	</geometry>
+	  </visual>
+    <collision name='collision'>
+	    <geometry>
+  	    <mesh>
+    	    <uri>file://refilling_station/meshes/refilling_station.dae</uri>
+    	    <scale>1 1 1</scale>
+  	    </mesh>
+	     </geometry>
+    </collision>
+    </link>
+   </model>
+  <!--}-->
+
+  <!-- refilling stations {-->
+  <model name='refilling_station_2'>
+    <pose>6.4780   -7.2480 0 0 0 0.2618</pose>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+    <cast_shadows>false</cast_shadows>
+	  <!-- refilling station {-->
+  	<geometry>
+    	<mesh>
+      	<uri>file://refilling_station/meshes/refilling_station.dae</uri>
+      	<scale>1 1 1</scale>
+    	</mesh>
+  	</geometry>
+	  </visual>
+    <collision name='collision'>
+	    <geometry>
+  	    <mesh>
+    	    <uri>file://refilling_station/meshes/refilling_station.dae</uri>
+    	    <scale>1 1 1</scale>
+  	    </mesh>
+	     </geometry>
+    </collision>
+    </link>
+   </model>
+  <!--}-->
+
+  <!-- refilling stations {-->
+  <model name='refilling_station_3'>
+    <pose>-22.4997  -15.0126 0 0 0 0.2618</pose>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+    <cast_shadows>false</cast_shadows>
+	  <!-- refilling station {-->
+  	<geometry>
+    	<mesh>
+      	<uri>file://refilling_station/meshes/refilling_station.dae</uri>
+      	<scale>1 1 1</scale>
+    	</mesh>
+  	</geometry>
+	  </visual>
+    <collision name='collision'>
+	    <geometry>
+  	    <mesh>
+    	    <uri>file://refilling_station/meshes/refilling_station.dae</uri>
+    	    <scale>1 1 1</scale>
+  	    </mesh>
+	     </geometry>
+    </collision>
+    </link>
+   </model>
+  <!--}-->
+
+  <!-- refilling stations {-->
+  <model name='refilling_station_4'>
+    <pose>11.1368  -24.6347 0 0 0 0.2618</pose>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+    <cast_shadows>false</cast_shadows>
+	  <!-- refilling station {-->
+  	<geometry>
+    	<mesh>
+      	<uri>file://refilling_station/meshes/refilling_station.dae</uri>
+      	<scale>1 1 1</scale>
+    	</mesh>
+  	</geometry>
+	  </visual>
+    <collision name='collision'>
+	    <geometry>
+  	    <mesh>
+    	    <uri>file://refilling_station/meshes/refilling_station.dae</uri>
+    	    <scale>1 1 1</scale>
+  	    </mesh>
+	     </geometry>
+    </collision>
+    </link>
+   </model>
+  <!--}-->
 
   <!-- user camera {-->
     <gui>
