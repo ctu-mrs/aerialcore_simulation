@@ -88,17 +88,17 @@
     <!--}-->
 
     <!-- power towers Danube and wires {-->
-    <model name='power_tower_danube'>
+    <model name='power_tower_island'>
       <pose>-25 -25 0 0 0 0.2618</pose>
       <static>true</static>
       <link name='link'>
         <visual name='visual'>
-        <!-- power tower {-->
+        <!-- power towers and cables {-->
           <cast_shadows>false</cast_shadows>
           <geometry>
             <mesh>
               <uri>file://power_tower_danube_2towers_wires/meshes/power_tower_danube_2tower_and_wires.dae</uri>
-              <scale>1 1 0.5</scale>
+              <scale>1 1 1</scale>
             </mesh>
           </geometry>
         </visual>
@@ -106,7 +106,7 @@
           <geometry>
             <mesh>
               <uri>file://power_tower_danube_2towers_wires/meshes/power_tower_danube_2tower_and_wires.dae</uri>
-              <scale>1 1 0.5</scale>
+              <scale>1 1 1</scale>
             </mesh>
           </geometry>
         </collision>
@@ -242,7 +242,7 @@
     <!-- GUI frame synchronization {-->
     <plugin name="mrs_gazebo_rviz_cam_synchronizer" filename="libMRSGazeboRvizCameraSynchronizer.so" >
       <target_frame_id>gazebo_user_camera</target_frame_id>
-      <world_origin_frame_id>uav1/gps_origin</world_origin_frame_id>
+      <world_origin_frame_id>uav1/rtk_origin</world_origin_frame_id>
       <frame_to_follow>uav1::base_link</frame_to_follow>
     </plugin>
     <!--}-->

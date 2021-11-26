@@ -87,26 +87,26 @@
     </model>
     <!--}-->
 
-    <!-- power towers Danuble and wires {-->
-    <model name='power_tower_island'>
+    <!-- wind turbine {-->
+    <model name='wind_turbine'>
       <pose>-25 -25 0 0 0 0.2618</pose>
       <static>true</static>
       <link name='link'>
         <visual name='visual'>
-        <!-- power towers and cables {-->
+        <!-- power tower {-->
           <cast_shadows>false</cast_shadows>
           <geometry>
             <mesh>
-              <uri>file://power_tower_danuble_2towers_wires/meshes/power_tower_danube_2tower_and_wires.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://wind_turbine/wind_turbine_scaled.dae</uri>
+              <scale>1 1 0.5</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://power_tower_danuble_2towers_wires/meshes/power_tower_danube_2tower_and_wires.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://wind_turbine/wind_turbine_scaled.dae</uri>
+              <scale>1 1 0.5</scale>
             </mesh>
           </geometry>
         </collision>
@@ -123,114 +123,6 @@
     </model>
     <!--}-->
 
-  <!-- refilling stations {-->
-  <model name='refilling_station_1'>
-    <pose> -17.8410 -32.3992 0 0 0 0.2618</pose>
-    <static>true</static>
-    <link name='link'>
-   	<visual name='visual'>
-    <cast_shadows>false</cast_shadows>
-	  <!-- refilling station {-->
-  	<geometry>
-    	<mesh>
-      	<uri>file://refilling_station/meshes/refilling_station.dae</uri>
-      	<scale>1 1 1</scale>
-    	</mesh>
-  	</geometry>
-	  </visual>
-    <collision name='collision'>
-	    <geometry>
-  	    <mesh>
-    	    <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-    	    <scale>1 1 1</scale>
-  	    </mesh>
-	     </geometry>
-    </collision>
-    </link>
-   </model>
-  <!--}-->
-
-  <!-- refilling stations {-->
-  <model name='refilling_station_2'>
-    <pose>6.4780   -7.2480 0 0 0 0.2618</pose>
-    <static>true</static>
-    <link name='link'>
-   	<visual name='visual'>
-    <cast_shadows>false</cast_shadows>
-	  <!-- refilling station {-->
-  	<geometry>
-    	<mesh>
-      	<uri>file://refilling_station/meshes/refilling_station.dae</uri>
-      	<scale>1 1 1</scale>
-    	</mesh>
-  	</geometry>
-	  </visual>
-    <collision name='collision'>
-	    <geometry>
-  	    <mesh>
-    	    <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-    	    <scale>1 1 1</scale>
-  	    </mesh>
-	     </geometry>
-    </collision>
-    </link>
-   </model>
-  <!--}-->
-
-  <!-- refilling stations {-->
-  <model name='refilling_station_3'>
-    <pose>-22.4997  -15.0126 0 0 0 0.2618</pose>
-    <static>true</static>
-    <link name='link'>
-   	<visual name='visual'>
-    <cast_shadows>false</cast_shadows>
-	  <!-- refilling station {-->
-  	<geometry>
-    	<mesh>
-      	<uri>file://refilling_station/meshes/refilling_station.dae</uri>
-      	<scale>1 1 1</scale>
-    	</mesh>
-  	</geometry>
-	  </visual>
-    <collision name='collision'>
-	    <geometry>
-  	    <mesh>
-    	    <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-    	    <scale>1 1 1</scale>
-  	    </mesh>
-	     </geometry>
-    </collision>
-    </link>
-   </model>
-  <!--}-->
-
-  <!-- refilling stations {-->
-  <model name='refilling_station_4'>
-    <pose>11.1368  -24.6347 0 0 0 0.2618</pose>
-    <static>true</static>
-    <link name='link'>
-   	<visual name='visual'>
-    <cast_shadows>false</cast_shadows>
-	  <!-- refilling station {-->
-  	<geometry>
-    	<mesh>
-      	<uri>file://refilling_station/meshes/refilling_station.dae</uri>
-      	<scale>1 1 1</scale>
-    	</mesh>
-  	</geometry>
-	  </visual>
-    <collision name='collision'>
-	    <geometry>
-  	    <mesh>
-    	    <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-    	    <scale>1 1 1</scale>
-  	    </mesh>
-	     </geometry>
-    </collision>
-    </link>
-   </model>
-  <!--}-->
-
   <!-- user camera {-->
     <gui>
       <camera name="camera">
@@ -242,7 +134,7 @@
     <!-- GUI frame synchronization {-->
     <plugin name="mrs_gazebo_rviz_cam_synchronizer" filename="libMRSGazeboRvizCameraSynchronizer.so" >
       <target_frame_id>gazebo_user_camera</target_frame_id>
-      <world_origin_frame_id>uav1/gps_origin</world_origin_frame_id>
+      <world_origin_frame_id>uav1/rtk_origin</world_origin_frame_id>
       <frame_to_follow>uav1::base_link</frame_to_follow>
     </plugin>
     <!--}-->
