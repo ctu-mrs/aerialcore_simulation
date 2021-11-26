@@ -87,8 +87,8 @@
     </model>
     <!--}-->
 
-    <!-- power towers Danuble and wires {-->
-    <model name='power_tower_danuble'>
+    <!-- power towers Danube and wires {-->
+    <model name='power_tower_danube'>
       <pose>-25 -25 0 0 0 0.2618</pose>
       <static>true</static>
       <link name='link'>
@@ -97,7 +97,7 @@
           <cast_shadows>false</cast_shadows>
           <geometry>
             <mesh>
-              <uri>file://power_tower_danuble_2towers_wires/meshes/power_tower_danube_2tower_and_wires.dae</uri>
+              <uri>file://power_tower_danube_2towers_wires/meshes/power_tower_danube_2tower_and_wires.dae</uri>
               <scale>1 1 0.5</scale>
             </mesh>
           </geometry>
@@ -105,7 +105,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://power_tower_danuble_2towers_wires/meshes/power_tower_danube_2tower_and_wires.dae</uri>
+              <uri>file://power_tower_danube_2towers_wires/meshes/power_tower_danube_2tower_and_wires.dae</uri>
               <scale>1 1 0.5</scale>
             </mesh>
           </geometry>
