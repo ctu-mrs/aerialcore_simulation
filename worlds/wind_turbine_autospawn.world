@@ -98,7 +98,7 @@
           <geometry>
             <mesh>
               <uri>file://wind_turbine/wind_turbine_scaled.dae</uri>
-              <scale>1 1 0.5</scale>
+              <scale>1 1 1</scale>
             </mesh>
           </geometry>
         </visual>
@@ -106,7 +106,7 @@
           <geometry>
             <mesh>
               <uri>file://wind_turbine/wind_turbine_scaled.dae</uri>
-              <scale>1 1 0.5</scale>
+              <scale>1 1 1</scale>
             </mesh>
           </geometry>
         </collision>
