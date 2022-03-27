@@ -43,7 +43,7 @@ def main():
                                  ':' + robots_description_parent_path + \
                                  ':' + current_gz_model_path
     # Include description_package parent path if it is not robots_description
-    if args.description_package is not "robots_description":
+    if args.description_package != "robots_description":
         description_package_parent_path = os.path.abspath(os.path.join(\
                                               rospack.get_path(args.description_package), os.pardir))
         gz_env['GAZEBO_MODEL_PATH'] += ':' + description_package_parent_path
