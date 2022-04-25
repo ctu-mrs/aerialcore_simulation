@@ -89,7 +89,7 @@
 
     <!-- wind turbine {-->
     <model name='wind_turbine'>
-      <pose>-25 -25 0 0 0 0.2618</pose>
+      <pose>-25 -25 0 0 0 -1.3090</pose>
       <static>true</static>
       <link name='link'>
         <visual name='visual'>
