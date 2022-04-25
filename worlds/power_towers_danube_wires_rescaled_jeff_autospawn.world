@@ -233,7 +233,7 @@
   
   <!-- refilling stations {-->
   <model name='refilling_station_5'>
-    <pose>-8.0109  -11.1303 0 0 0 0.2618</pose>
+    <pose>-7.7520  -12.0962 0 0 0 0.2618</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
