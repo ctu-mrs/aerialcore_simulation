@@ -230,10 +230,91 @@
       </link>
    </model>
   <!--}-->
+  
+  <!-- refilling stations {-->
+  <model name='refilling_station_5'>
+    <pose>-8.0109  -11.1303 0 0 0 0.2618</pose>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+         <cast_shadows>false</cast_shadows>
+         <!-- refilling station {-->
+         <geometry>
+           <mesh>
+            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
+            <scale>1 1 1</scale>
+           </mesh>
+         </geometry>
+        </visual>
+       <collision name='collision'>
+         <geometry>
+           <mesh>
+            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
+            <scale>1 1 1</scale>
+           </mesh>
+         </geometry>
+       </collision>
+      </link>
+   </model>
+  <!--}-->
 
-  <!-- jeff_electrician {-->
-  <model name='jeff_electrician'>
-    <pose>-5.6815  -19.8236 0 0 0 0.2618</pose>
+  <!-- jeff_electrician picking {-->
+  <model name='jeff_electrician_picking'>
+    <pose>-18.3772    -15.3314 0 0 0 0.2618</pose>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+         <cast_shadows>false</cast_shadows>
+         <!-- jeff_electrician {-->
+         <geometry>
+           <mesh>
+            <uri>file://jeff_electrician/jeff_electrician.dae</uri>
+            <scale>1 1 1</scale>
+           </mesh>
+         </geometry>
+        </visual>
+       <collision name='collision'>
+         <geometry>
+           <mesh>
+            <uri>file://jeff_electrician/jeff_electrician.dae</uri>
+            <scale>1 1 1</scale>
+           </mesh>
+         </geometry>
+       </collision>
+      </link>
+   </model>
+  <!--}-->
+  
+  <!-- jeff_electrician delivery {-->
+  <model name='jeff_electrician_delivery'>
+    <pose>-12.9259     -25.7765 0 0 0 0.2618</pose>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+         <cast_shadows>false</cast_shadows>
+         <!-- jeff_electrician {-->
+         <geometry>
+           <mesh>
+            <uri>file://jeff_electrician/jeff_electrician.dae</uri>
+            <scale>1 1 1</scale>
+           </mesh>
+         </geometry>
+        </visual>
+       <collision name='collision'>
+         <geometry>
+           <mesh>
+            <uri>file://jeff_electrician/jeff_electrician.dae</uri>
+            <scale>1 1 1</scale>
+           </mesh>
+         </geometry>
+       </collision>
+      </link>
+   </model>
+  <!--}-->
+  
+  <!-- jeff_electrician monitoring {-->
+  <model name='jeff_electrician_monitoring'>
+    <pose>-0.851858 -25 0 0 0 0.2618</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
