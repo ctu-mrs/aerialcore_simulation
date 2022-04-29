@@ -89,7 +89,7 @@
 
     <!-- power towers Danube and wires {-->
     <model name='power_tower_danube'>
-      <pose>-25 -25 0 0 0 0.2618</pose>
+      <pose>40 30 0 0 0 2.618</pose>
       <static>true</static>
       <link name='link'>
         <visual name='visual'>
@@ -125,7 +125,7 @@
 
   <!-- refilling stations {-->
   <model name='refilling_station_1'>
-    <pose> -17.8410 -32.3992 0 0 0 0.2618</pose>
+    <pose> 40.1698 40.2942 0 0 0 2.618</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
@@ -152,7 +152,7 @@
 
   <!-- refilling stations {-->
   <model name='refilling_station_2'>
-    <pose>6.4780   -7.2480 0 0 0 0.2618</pose>
+    <pose>14.1890 55.2941 0 0 0 2.618</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
@@ -179,7 +179,7 @@
   
   <!-- refilling stations {-->
   <model name='refilling_station_3'>
-    <pose>-22.4997  -15.0126 0 0 0 0.2618</pose>
+    <pose>31.1699 24.7057 0 0 0 2.618</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
@@ -206,7 +206,7 @@
 
   <!-- refilling stations {-->
   <model name='refilling_station_4'>
-    <pose>11.1368  -24.6347 0 0 0 0.2618</pose>
+    <pose>5.1891 39.7056 0 0 0 2.618</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
@@ -233,7 +233,7 @@
   
   <!-- refilling stations {-->
   <model name='refilling_station_5'>
-    <pose>-7.7520  -12.0962 0 0 0 0.2618</pose>
+    <pose>18.6795 33.0717 0 0 0 2.618</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
@@ -260,7 +260,7 @@
 
   <!-- jeff_electrician picking {-->
   <model name='jeff_electrician_picking'>
-    <pose>-18.3772    -15.3314 0 0 0 0.2618</pose>
+    <pose>28.2058 27.5717 0 0 0 2.618</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
@@ -287,7 +287,7 @@
   
   <!-- jeff_electrician delivery {-->
   <model name='jeff_electrician_delivery'>
-    <pose>-12.9259     -25.7765 0 0 0 0.2618</pose>
+    <pose>30.6746 38.848 0 0 0 2.618</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
@@ -314,7 +314,7 @@
   
   <!-- jeff_electrician monitoring {-->
   <model name='jeff_electrician_monitoring'>
-    <pose>-0.851858 -25 0 0 0 0.2618</pose>
+    <pose>18.3493 42.4999 0</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
