@@ -89,7 +89,7 @@
 
     <!-- power towers Danube and wires {-->
     <model name='power_tower_danube'>
-      <pose>40 30 0 0 0 2.618</pose>
+      <pose>-25 -25 0 0 0 0.2618</pose>
       <static>true</static>
       <link name='link'>
         <visual name='visual'>
@@ -125,142 +125,37 @@
 
   <!-- refilling stations {-->
   <model name='refilling_station_1'>
-    <pose> 40.1698 40.2942 0 0 0 2.618</pose>
+    <pose> -17.8410 -32.3992 0 0 0 0.2618</pose>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
-         <cast_shadows>false</cast_shadows>
-         <!-- refilling station {-->
-         <geometry>
-           <mesh>
-            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-            <scale>1 1 1</scale>
-           </mesh>
-         </geometry>
-        </visual>
-       <collision name='collision'>
-         <geometry>
-           <mesh>
-            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-            <scale>1 1 1</scale>
-           </mesh>
-         </geometry>
-       </collision>
-      </link>
-   </model>
-  <!--}-->
-
-  <!-- refilling stations {-->
-  <model name='refilling_station_2'>
-    <pose>14.1890 55.2941 0 0 0 2.618</pose>
-    <static>true</static>
-    <link name='link'>
-   	<visual name='visual'>
-         <cast_shadows>false</cast_shadows>
-         <!-- refilling station {-->
-         <geometry>
-           <mesh>
-            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-            <scale>1 1 1</scale>
-           </mesh>
-         </geometry>
-        </visual>
-       <collision name='collision'>
-         <geometry>
-           <mesh>
-            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-            <scale>1 1 1</scale>
-           </mesh>
-         </geometry>
-       </collision>
-      </link>
+    <cast_shadows>false</cast_shadows>
+	  <!-- refilling station {-->
+  	<geometry>
+    	<mesh>
+      	<uri>file://refilling_station/meshes/refilling_station.dae</uri>
+      	<scale>1 1 1</scale>
+    	</mesh>
+  	</geometry>
+	  </visual>
+    <collision name='collision'>
+	    <geometry>
+  	    <mesh>
+    	    <uri>file://refilling_station/meshes/refilling_station.dae</uri>
+    	    <scale>1 1 1</scale>
+  	    </mesh>
+	     </geometry>
+    </collision>
+    </link>
    </model>
   <!--}-->
   
-  <!-- refilling stations {-->
-  <model name='refilling_station_3'>
-    <pose>31.1699 24.7057 0 0 0 2.618</pose>
-    <static>true</static>
-    <link name='link'>
-   	<visual name='visual'>
-         <cast_shadows>false</cast_shadows>
-         <!-- refilling station {-->
-         <geometry>
-           <mesh>
-            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-            <scale>1 1 1</scale>
-           </mesh>
-         </geometry>
-        </visual>
-       <collision name='collision'>
-         <geometry>
-           <mesh>
-            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-            <scale>1 1 1</scale>
-           </mesh>
-         </geometry>
-       </collision>
-      </link>
-   </model>
-  <!--}-->
-
-  <!-- refilling stations {-->
-  <model name='refilling_station_4'>
-    <pose>5.1891 39.7056 0 0 0 2.618</pose>
-    <static>true</static>
-    <link name='link'>
-   	<visual name='visual'>
-         <cast_shadows>false</cast_shadows>
-         <!-- refilling station {-->
-         <geometry>
-           <mesh>
-            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-            <scale>1 1 1</scale>
-           </mesh>
-         </geometry>
-        </visual>
-       <collision name='collision'>
-         <geometry>
-           <mesh>
-            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-            <scale>1 1 1</scale>
-           </mesh>
-         </geometry>
-       </collision>
-      </link>
-   </model>
-  <!--}-->
+ <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}-->
   
-  <!-- refilling stations {-->
-  <model name='refilling_station_5'>
-    <pose>18.6795 33.0717 0 0 0 2.618</pose>
-    <static>true</static>
-    <link name='link'>
-   	<visual name='visual'>
-         <cast_shadows>false</cast_shadows>
-         <!-- refilling station {-->
-         <geometry>
-           <mesh>
-            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-            <scale>1 1 1</scale>
-           </mesh>
-         </geometry>
-        </visual>
-       <collision name='collision'>
-         <geometry>
-           <mesh>
-            <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-            <scale>1 1 1</scale>
-           </mesh>
-         </geometry>
-       </collision>
-      </link>
-   </model>
-  <!--}-->
-
-  <!-- jeff_electrician picking {-->
-  <model name='jeff_electrician_picking'>
-    <pose>28.2058 27.5717 0 0 0 2.618</pose>
+  <!-- jeff_electrician on power line - HUMAN1 RIGHT {-->
+  <model name='jeff_electrician_right_right_arm'>
+    <pose>-21.5122  -24.0921    6.1000 -3.14 -0.7990 3.4034</pose>
+    <gravity>0</gravity>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
@@ -268,16 +163,71 @@
          <!-- jeff_electrician {-->
          <geometry>
            <mesh>
-            <uri>file://jeff_electrician/jeff_electrician.dae</uri>
-            <scale>1 1 1</scale>
+           <!-- jeff_electrician RIGID ARM {-->
+            <uri>file://jeff_electrician_modular/jeff_right_arm.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
            </mesh>
          </geometry>
         </visual>
        <collision name='collision'>
          <geometry>
            <mesh>
-            <uri>file://jeff_electrician/jeff_electrician.dae</uri>
-            <scale>1 1 1</scale>
+            <uri>file://jeff_electrician_modular/jeff_right_arm.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+           </mesh>
+         </geometry>
+       </collision>
+      </link>
+   </model>
+   
+   <model name='jeff_electrician_right_body'>
+    <pose>-22.1022  -24.2235    4.5000 0 0 0.2618</pose>
+    <gravity>0</gravity>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+         <cast_shadows>false</cast_shadows>
+         <!-- jeff_electrician {-->
+         <geometry>
+            <mesh>
+            <!-- jeff_electrician RIGID BODY {-->
+            <uri>file://jeff_electrician_modular/jeff_body.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+           </mesh>
+         </geometry>
+        </visual>
+       <collision name='collision'>
+         <geometry>
+           <mesh>
+            <uri>file://jeff_electrician_modular/jeff_body.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+           </mesh>
+         </geometry>
+       </collision>
+      </link>
+   </model>
+   
+   <model name='jeff_electrician_right_left_arm'>
+    <pose>-22.1022  -24.2235    4.5000 0 0 0.2618</pose>
+    <gravity>0</gravity>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+         <cast_shadows>false</cast_shadows>
+         <!-- jeff_electrician {-->
+         <geometry>
+            <mesh>
+            <!-- jeff_electrician MOVING ARM {-->
+            <uri>file://jeff_electrician_modular/jeff_left_arm.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+           </mesh>
+         </geometry>
+        </visual>
+       <collision name='collision'>
+         <geometry>
+           <mesh>
+            <uri>file://jeff_electrician_modular/jeff_left_arm.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
            </mesh>
          </geometry>
        </collision>
@@ -285,9 +235,15 @@
    </model>
   <!--}-->
   
-  <!-- jeff_electrician delivery {-->
-  <model name='jeff_electrician_delivery'>
-    <pose>30.6746 38.848 0 0 0 2.618</pose>
+ <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}-->
+
+
+ <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}-->
+  
+  <!-- jeff_electrician on power line - HUMAN2 LEFT {-->
+  <model name='jeff_electrician_left_right_arm'>
+    <pose>11.1291  -15.3020  9.1062 -3.14 -0.7990 0.2618</pose>
+    <gravity>0</gravity>
     <static>true</static>
     <link name='link'>
    	<visual name='visual'>
@@ -295,16 +251,71 @@
          <!-- jeff_electrician {-->
          <geometry>
            <mesh>
-            <uri>file://jeff_electrician/jeff_electrician.dae</uri>
-            <scale>1 1 1</scale>
+           <!-- jeff_electrician MOVING ARM {-->
+            <uri>file://jeff_electrician_modular/jeff_right_arm.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
            </mesh>
          </geometry>
         </visual>
        <collision name='collision'>
          <geometry>
            <mesh>
-            <uri>file://jeff_electrician/jeff_electrician.dae</uri>
-            <scale>1 1 1</scale>
+            <uri>file://jeff_electrician_modular/jeff_right_arm.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+           </mesh>
+         </geometry>
+       </collision>
+      </link>
+   </model>
+   
+   <model name='jeff_electrician_left_body'>
+    <pose>11.7052  -15.1649  7.5000 0 0 3.4034</pose>
+    <gravity>0</gravity>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+         <cast_shadows>false</cast_shadows>
+         <!-- jeff_electrician {-->
+         <geometry>
+            <mesh>
+            <!-- jeff_electrician RIGID BODY {-->
+            <uri>file://jeff_electrician_modular/jeff_body.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+           </mesh>
+         </geometry>
+        </visual>
+       <collision name='collision'>
+         <geometry>
+           <mesh>
+            <uri>file://jeff_electrician_modular/jeff_body.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+           </mesh>
+         </geometry>
+       </collision>
+      </link>
+   </model>
+   
+   <model name='jeff_electrician_left_left_arm'>
+    <pose>11.7052  -15.1649  7.5000 0 0 3.4034</pose>
+    <gravity>0</gravity>
+    <static>true</static>
+    <link name='link'>
+   	<visual name='visual'>
+         <cast_shadows>false</cast_shadows>
+         <!-- jeff_electrician {-->
+         <geometry>
+            <mesh>
+            <!-- jeff_electrician RIGID ARM {-->
+            <uri>file://jeff_electrician_modular/jeff_left_arm.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+           </mesh>
+         </geometry>
+        </visual>
+       <collision name='collision'>
+         <geometry>
+           <mesh>
+            <uri>file://jeff_electrician_modular/jeff_left_arm.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
            </mesh>
          </geometry>
        </collision>
@@ -312,10 +323,13 @@
    </model>
   <!--}-->
   
-  <!-- jeff_electrician monitoring {-->
-  <model name='jeff_electrician_monitoring'>
-    <pose>18.3493 42.4999 0</pose>
+ <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}-->
+  
+  <!-- jeff_electrician on the ground - HUMAN3 (close to refilling station) {-->
+  <model name='jeff_electrician_supporting_tool'>
+    <pose>-17.8410 -32.3992 0.06 0 -1.3090</pose>
     <static>true</static>
+    <gravity>0</gravity>
     <link name='link'>
    	<visual name='visual'>
          <cast_shadows>false</cast_shadows>
@@ -323,7 +337,7 @@
          <geometry>
            <mesh>
             <uri>file://jeff_electrician/jeff_electrician.dae</uri>
-            <scale>1 1 1</scale>
+            <scale>0.5 0.5 0.5</scale>
            </mesh>
          </geometry>
         </visual>
@@ -331,7 +345,7 @@
          <geometry>
            <mesh>
             <uri>file://jeff_electrician/jeff_electrician.dae</uri>
-            <scale>1 1 1</scale>
+            <scale>0.5 0.5 0.5</scale>
            </mesh>
          </geometry>
        </collision>
