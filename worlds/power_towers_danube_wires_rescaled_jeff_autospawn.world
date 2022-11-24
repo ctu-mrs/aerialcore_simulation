@@ -122,39 +122,12 @@
       </link>
     </model>
     <!--}-->
-
-  <!-- refilling stations {-->
-  <model name='refilling_station_1'>
-    <pose> -17.8410 -32.3992 0 0 0 0.2618</pose>
-    <static>true</static>
-    <link name='link'>
-   	<visual name='visual'>
-    <cast_shadows>false</cast_shadows>
-	  <!-- refilling station {-->
-  	<geometry>
-    	<mesh>
-      	<uri>file://refilling_station/meshes/refilling_station.dae</uri>
-      	<scale>1 1 1</scale>
-    	</mesh>
-  	</geometry>
-	  </visual>
-    <collision name='collision'>
-	    <geometry>
-  	    <mesh>
-    	    <uri>file://refilling_station/meshes/refilling_station.dae</uri>
-    	    <scale>1 1 1</scale>
-  	    </mesh>
-	     </geometry>
-    </collision>
-    </link>
-   </model>
-  <!--}-->
   
  <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}--> <!--}-->
   
   <!-- jeff_electrician on power line - HUMAN1 RIGHT {-->
   <model name='jeff_electrician_right_right_arm'>
-    <pose>-21.5122  -24.0921    6.1000 -3.14 -0.7990 3.4034</pose>
+    <pose>-23.4822  -25.3253  2.3300 0 0 0.2618</pose>
     <gravity>0</gravity>
     <static>true</static>
     <link name='link'>
@@ -165,7 +138,7 @@
            <mesh>
            <!-- jeff_electrician RIGID ARM {-->
             <uri>file://jeff_electrician_modular/jeff_right_arm.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
         </visual>
@@ -173,7 +146,7 @@
          <geometry>
            <mesh>
             <uri>file://jeff_electrician_modular/jeff_right_arm.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
        </collision>
@@ -181,7 +154,7 @@
    </model>
    
    <model name='jeff_electrician_right_body'>
-    <pose>-22.1022  -24.2235    4.5000 0 0 0.2618</pose>
+    <pose>-23.4822  -25.3253  2.3300 0 0 0.2618</pose>
     <gravity>0</gravity>
     <static>true</static>
     <link name='link'>
@@ -192,7 +165,7 @@
             <mesh>
             <!-- jeff_electrician RIGID BODY {-->
             <uri>file://jeff_electrician_modular/jeff_body.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
         </visual>
@@ -200,7 +173,7 @@
          <geometry>
            <mesh>
             <uri>file://jeff_electrician_modular/jeff_body.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
        </collision>
@@ -208,7 +181,7 @@
    </model>
    
    <model name='jeff_electrician_right_left_arm'>
-    <pose>-22.1022  -24.2235    4.5000 0 0 0.2618</pose>
+    <pose>-22.6914  -25.0741  4.7533 -3.14 -0.7990 -2.8797</pose>
     <gravity>0</gravity>
     <static>true</static>
     <link name='link'>
@@ -219,7 +192,7 @@
             <mesh>
             <!-- jeff_electrician MOVING ARM {-->
             <uri>file://jeff_electrician_modular/jeff_left_arm.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
         </visual>
@@ -227,7 +200,7 @@
          <geometry>
            <mesh>
             <uri>file://jeff_electrician_modular/jeff_left_arm.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
        </collision>
@@ -242,7 +215,7 @@
   
   <!-- jeff_electrician on power line - HUMAN2 LEFT {-->
   <model name='jeff_electrician_left_right_arm'>
-    <pose>11.1291  -15.3020  9.1062 -3.14 -0.7990 0.2618</pose>
+    <pose>11.9468  -15.5770  7.9169 -3.14 -0.7990 0.2618</pose>
     <gravity>0</gravity>
     <static>true</static>
     <link name='link'>
@@ -253,7 +226,7 @@
            <mesh>
            <!-- jeff_electrician MOVING ARM {-->
             <uri>file://jeff_electrician_modular/jeff_right_arm.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
         </visual>
@@ -261,7 +234,7 @@
          <geometry>
            <mesh>
             <uri>file://jeff_electrician_modular/jeff_right_arm.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
        </collision>
@@ -269,7 +242,7 @@
    </model>
    
    <model name='jeff_electrician_left_body'>
-    <pose>11.7052  -15.1649  7.5000 0 0 3.4034</pose>
+    <pose>12.7472  -15.4104  5.5000 0 0 3.4034</pose>
     <gravity>0</gravity>
     <static>true</static>
     <link name='link'>
@@ -280,7 +253,7 @@
             <mesh>
             <!-- jeff_electrician RIGID BODY {-->
             <uri>file://jeff_electrician_modular/jeff_body.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
         </visual>
@@ -288,7 +261,7 @@
          <geometry>
            <mesh>
             <uri>file://jeff_electrician_modular/jeff_body.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
        </collision>
@@ -296,7 +269,7 @@
    </model>
    
    <model name='jeff_electrician_left_left_arm'>
-    <pose>11.7052  -15.1649  7.5000 0 0 3.4034</pose>
+    <pose>12.7472  -15.4104  5.5000 0 0 3.4034</pose>
     <gravity>0</gravity>
     <static>true</static>
     <link name='link'>
@@ -307,7 +280,7 @@
             <mesh>
             <!-- jeff_electrician RIGID ARM {-->
             <uri>file://jeff_electrician_modular/jeff_left_arm.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
         </visual>
@@ -315,7 +288,7 @@
          <geometry>
            <mesh>
             <uri>file://jeff_electrician_modular/jeff_left_arm.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
        </collision>
@@ -327,7 +300,7 @@
   
   <!-- jeff_electrician on the ground - HUMAN3 (close to refilling station) {-->
   <model name='jeff_electrician_supporting_tool'>
-    <pose>-17.8410 -32.3992 0.06 0 -1.3090</pose>
+    <pose>-9.5440  -30.2071 0.06 0 0.2618</pose>
     <static>true</static>
     <gravity>0</gravity>
     <link name='link'>
@@ -337,7 +310,7 @@
          <geometry>
            <mesh>
             <uri>file://jeff_electrician/jeff_electrician.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
         </visual>
@@ -345,7 +318,7 @@
          <geometry>
            <mesh>
             <uri>file://jeff_electrician/jeff_electrician.dae</uri>
-            <scale>0.5 0.5 0.5</scale>
+            <scale>0.75 0.75 0.75</scale>
            </mesh>
          </geometry>
        </collision>
