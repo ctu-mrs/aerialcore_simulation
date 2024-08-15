@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot name="visual">
+
+  <link name="uav1/rtk_origin">
+    <visual>
+      <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
+      <geometry>
+        <mesh filename="package://aerialcore_simulation/models/three_power_towers/meshes/three_power_towers.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+</robot>
